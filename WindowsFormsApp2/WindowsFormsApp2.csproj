@@ -161,14 +161,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cable-crossovers.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cable-crossovers %282%29.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cable-crossover-2.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
