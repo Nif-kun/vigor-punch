@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class frmManChestEx : Form
+    public partial class frmManBackEX : Form
     {
-        public frmManChestEx()
+        public frmManBackEX()
         {
             InitializeComponent();
         }
 
-        private void groupBox10_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label27_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
             frmManWorkout manWorkout = new frmManWorkout();

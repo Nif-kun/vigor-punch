@@ -29,6 +29,10 @@ namespace WindowsFormsApp2
 
         private void btnManBackStart_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            frmManBackEX backEx = new frmManBackEX();
+            backEx.Closed += (s, args) => this.Close();
+            backEx.Show();
 
         }
     }
