@@ -16,7 +16,7 @@ namespace WindowsFormsApp2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmManWorkout());
+            Application.Run(new Form1());
         }
     }
 }
