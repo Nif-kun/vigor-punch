@@ -103,10 +103,10 @@
     <Compile Include="Misc\Form8.Designer.cs">
       <DependentUpon>Form8.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmManBackEX.cs">
+    <Compile Include="Exercises\Types\Male\Back\frmManBackEX.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmManBackEX.Designer.cs">
+    <Compile Include="Exercises\Types\Male\Back\frmManBackEX.Designer.cs">
       <DependentUpon>frmManBackEX.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -149,7 +149,7 @@
     <EmbeddedResource Include="Misc\Form8.resx">
       <DependentUpon>Form8.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmManBackEX.resx">
+    <EmbeddedResource Include="Exercises\Types\Male\Back\frmManBackEX.resx">
       <DependentUpon>frmManBackEX.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
