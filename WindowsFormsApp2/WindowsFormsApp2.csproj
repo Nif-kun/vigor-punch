@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercises\Types\Male\Arms\frmManArmsEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Arms\frmManArmsEx.Designer.cs">
+      <DependentUpon>frmManArmsEx.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercises\Types\Male\Chest\Chest.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     <Compile Include="Exercises\Types\Male\Workouts.Designer.cs">
       <DependentUpon>Workouts.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Exercises\Types\Male\Arms\frmManArmsEx.resx">
+      <DependentUpon>frmManArmsEx.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Chest\Chest.resx">
       <DependentUpon>Chest.cs</DependentUpon>
     </EmbeddedResource>
