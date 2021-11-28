@@ -73,6 +73,12 @@
     <Compile Include="Exercises\Types\Male\Legs\frmManLegEx.Designer.cs">
       <DependentUpon>frmManLegEx.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercises\Types\Male\Shoulder\frmManShoulderEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Shoulder\frmManShoulderEx.Designer.cs">
+      <DependentUpon>frmManShoulderEx.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercises\Types\Woman\Back\WomanBackEX.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Legs\frmManLegEx.resx">
       <DependentUpon>frmManLegEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Shoulder\frmManShoulderEx.resx">
+      <DependentUpon>frmManShoulderEx.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Woman\Back\WomanBackEX.resx">
       <DependentUpon>WomanBackEX.cs</DependentUpon>
