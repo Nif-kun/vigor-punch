@@ -14,9 +14,9 @@ using WindowsFormsApp2.Exercises.Types.Male.Shoulder;
 
 namespace WindowsFormsApp2
 {
-    public partial class frmManWorkout : Form
+    public partial class MaleWorkout : Form
     {
-        public frmManWorkout()
+        public MaleWorkout()
         {
             InitializeComponent();
         }

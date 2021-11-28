@@ -20,7 +20,7 @@ namespace WindowsFormsApp2
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmManWorkout manWorkout = new frmManWorkout();
+            MaleWorkout manWorkout = new MaleWorkout();
             manWorkout.Closed += (s, args) => this.Close();
             manWorkout.Show();
         }

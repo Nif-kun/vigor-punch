@@ -20,7 +20,7 @@ namespace WindowsFormsApp2
         private void btnwBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            WomanWorkout wmanWorkout = new WomanWorkout();
+            FemaleWorkout wmanWorkout = new FemaleWorkout();
             wmanWorkout.Closed += (s, args) => this.Close();
             wmanWorkout.Show();
         }
