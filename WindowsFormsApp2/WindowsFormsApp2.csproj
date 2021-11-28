@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercises\Types\Male\Abdominal\frmManAbdominalEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Abdominal\frmManAbdominalEx.Designer.cs">
+      <DependentUpon>frmManAbdominalEx.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercises\Types\Male\Arms\frmManArmsEx.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,12 @@
     </Compile>
     <Compile Include="Exercises\Types\Male\Legs\frmManLegEX.Designer.cs">
       <DependentUpon>frmManLegEX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Shoulder\frmManShoulderEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Shoulder\frmManShoulderEx.Designer.cs">
+      <DependentUpon>frmManShoulderEx.cs</DependentUpon>
     </Compile>
     <Compile Include="Exercises\Types\Woman\Back\WomanBackEX.cs">
       <SubType>Form</SubType>
@@ -152,6 +164,9 @@
     <Compile Include="Exercises\Types\Male\Workouts.Designer.cs">
       <DependentUpon>Workouts.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Exercises\Types\Male\Abdominal\frmManAbdominalEx.resx">
+      <DependentUpon>frmManAbdominalEx.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Arms\frmManArmsEx.resx">
       <DependentUpon>frmManArmsEx.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Legs\frmManLegEX.resx">
       <DependentUpon>frmManLegEX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Shoulder\frmManShoulderEx.resx">
+      <DependentUpon>frmManShoulderEx.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Woman\Back\WomanBackEX.resx">
       <DependentUpon>WomanBackEX.cs</DependentUpon>
