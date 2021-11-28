@@ -39,16 +39,9 @@ namespace WindowsFormsApp2
             this.label2 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.btnManLegStart = new System.Windows.Forms.Button();
-            this.btnManArmStart = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // btnManChestStart
@@ -67,7 +60,7 @@ namespace WindowsFormsApp2
             // 
             this.btnManBackStart.BackColor = System.Drawing.Color.LightGray;
             this.btnManBackStart.Font = new System.Drawing.Font("Kudos Black SSi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnManBackStart.Location = new System.Drawing.Point(27, 426);
+            this.btnManBackStart.Location = new System.Drawing.Point(27, 463);
             this.btnManBackStart.Name = "btnManBackStart";
             this.btnManBackStart.Size = new System.Drawing.Size(100, 40);
             this.btnManBackStart.TabIndex = 1;
@@ -98,7 +91,7 @@ namespace WindowsFormsApp2
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.Location = new System.Drawing.Point(12, 323);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 360);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(364, 170);
             this.pictureBox2.TabIndex = 26;
@@ -122,7 +115,7 @@ namespace WindowsFormsApp2
             this.label2.BackColor = System.Drawing.Color.LightCoral;
             this.label2.Font = new System.Drawing.Font("Kudos Black SSi", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(21, 369);
+            this.label2.Location = new System.Drawing.Point(21, 406);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(195, 31);
             this.label2.TabIndex = 28;
@@ -152,81 +145,24 @@ namespace WindowsFormsApp2
             this.label9.TabIndex = 29;
             this.label9.Text = "MAN\'S";
             // 
-            // btnManLegStart
+            // button1
             // 
-            this.btnManLegStart.BackColor = System.Drawing.Color.LightGray;
-            this.btnManLegStart.Font = new System.Drawing.Font("Kudos Black SSi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnManLegStart.Location = new System.Drawing.Point(27, 632);
-            this.btnManLegStart.Name = "btnManLegStart";
-            this.btnManLegStart.Size = new System.Drawing.Size(100, 40);
-            this.btnManLegStart.TabIndex = 31;
-            this.btnManLegStart.Text = "START";
-            this.btnManLegStart.UseVisualStyleBackColor = false;
-            this.btnManLegStart.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnManArmStart
-            // 
-            this.btnManArmStart.BackColor = System.Drawing.Color.LightGray;
-            this.btnManArmStart.Font = new System.Drawing.Font("Kudos Black SSi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnManArmStart.Location = new System.Drawing.Point(27, 853);
-            this.btnManArmStart.Name = "btnManArmStart";
-            this.btnManArmStart.Size = new System.Drawing.Size(100, 40);
-            this.btnManArmStart.TabIndex = 32;
-            this.btnManArmStart.Text = "START";
-            this.btnManArmStart.UseVisualStyleBackColor = false;
-            this.btnManArmStart.Click += new System.EventHandler(this.btnManArmStart_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.LightCoral;
-            this.label3.Font = new System.Drawing.Font("Kudos Black SSi", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(21, 575);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(190, 31);
-            this.label3.TabIndex = 33;
-            this.label3.Text = "LEGS WORKOUT";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.Location = new System.Drawing.Point(12, 534);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(364, 170);
-            this.pictureBox3.TabIndex = 34;
-            this.pictureBox3.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.LightCoral;
-            this.label4.Font = new System.Drawing.Font("Kudos Black SSi", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(21, 786);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(199, 31);
-            this.label4.TabIndex = 35;
-            this.label4.Text = "ARMS WORKOUT";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.Location = new System.Drawing.Point(12, 745);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(364, 170);
-            this.pictureBox4.TabIndex = 36;
-            this.pictureBox4.TabStop = false;
+            this.button1.BackColor = System.Drawing.Color.LightGray;
+            this.button1.Font = new System.Drawing.Font("Kudos Black SSi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(27, 656);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 40);
+            this.button1.TabIndex = 31;
+            this.button1.Text = "START";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmManWorkout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(393, 944);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.btnManArmStart);
-            this.Controls.Add(this.btnManLegStart);
+            this.ClientSize = new System.Drawing.Size(388, 792);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label2);
@@ -236,15 +172,10 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.btnManBackStart);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.pictureBox4);
             this.Name = "frmManWorkout";
             this.Text = "Man\'s Workout";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -261,11 +192,6 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button btnManLegStart;
-        private System.Windows.Forms.Button btnManArmStart;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button button1;
     }
 }
