@@ -30,7 +30,7 @@ namespace WindowsFormsApp2
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            WomanWorkout wmanWorkout = new WomanWorkout();
+            FemaleWorkout wmanWorkout = new FemaleWorkout();
             wmanWorkout.Closed += (s, args) => this.Close();
             wmanWorkout.Show();
         }
