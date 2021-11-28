@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp2.Exercises.Types.Male.Legs;
 
 namespace WindowsFormsApp2
 {
@@ -39,10 +40,10 @@ namespace WindowsFormsApp2
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmManLegEX legEx = new frmManLegEX;
+            frmManLeg legEx = new frmManLeg();
             legEx.Closed += (s, args) => this.Close();
             legEx.Show();
-
+             
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2.Exercises.Types.Male.Legs
 {
-    public partial class frmManLegEX : Form
+    public partial class frmManLeg : Form
     {
-        public frmManLegEX()
+        public frmManLeg()
         {
             InitializeComponent();
         }
