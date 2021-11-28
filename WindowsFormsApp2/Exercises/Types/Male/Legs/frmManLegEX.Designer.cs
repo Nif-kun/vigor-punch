@@ -83,6 +83,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.groupBox4.Size = new System.Drawing.Size(413, 144);
             this.groupBox4.TabIndex = 39;
             this.groupBox4.TabStop = false;
+            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // label6
             // 
@@ -94,7 +95,8 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(142, 34);
             this.label6.TabIndex = 16;
-            this.label6.Text = "45 Reps";
+            this.label6.Text = "20 Reps";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // button4
             // 
@@ -107,6 +109,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.button4.TabIndex = 11;
             this.button4.Text = "VIEW";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label7
             // 
@@ -119,6 +122,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label7.Size = new System.Drawing.Size(179, 25);
             this.label7.TabIndex = 0;
             this.label7.Text = "Explosive squat";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // pictureBox4
             // 
@@ -129,6 +133,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.pictureBox4.Size = new System.Drawing.Size(413, 241);
             this.pictureBox4.TabIndex = 13;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // groupBox5
             // 
@@ -143,6 +148,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.groupBox5.Size = new System.Drawing.Size(413, 144);
             this.groupBox5.TabIndex = 40;
             this.groupBox5.TabStop = false;
+            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
             // label8
             // 
@@ -154,7 +160,8 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(142, 34);
             this.label8.TabIndex = 17;
-            this.label8.Text = "45 Reps";
+            this.label8.Text = "18 Reps";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // button5
             // 
@@ -167,6 +174,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.button5.TabIndex = 11;
             this.button5.Text = "VIEW";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label11
             // 
@@ -179,6 +187,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label11.Size = new System.Drawing.Size(218, 25);
             this.label11.TabIndex = 0;
             this.label11.Text = "Lunges + 3sec hold";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // pictureBox5
             // 
@@ -189,6 +198,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.pictureBox5.Size = new System.Drawing.Size(413, 229);
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // button3
             // 
@@ -201,6 +211,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.button3.TabIndex = 11;
             this.button3.Text = "VIEW";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label5
             // 
@@ -213,6 +224,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label5.Size = new System.Drawing.Size(228, 25);
             this.label5.TabIndex = 0;
             this.label5.Text = "Bulgarian split squat";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // groupBox3
             // 
@@ -227,6 +239,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.groupBox3.Size = new System.Drawing.Size(413, 144);
             this.groupBox3.TabIndex = 38;
             this.groupBox3.TabStop = false;
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // label4
             // 
@@ -238,7 +251,8 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(142, 34);
             this.label4.TabIndex = 15;
-            this.label4.Text = "45 Reps";
+            this.label4.Text = "20 Reps";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // pictureBox3
             // 
@@ -249,6 +263,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.pictureBox3.Size = new System.Drawing.Size(502, 261);
             this.pictureBox3.TabIndex = 13;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // button2
             // 
@@ -261,6 +276,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.button2.TabIndex = 11;
             this.button2.Text = "VIEW";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label3
             // 
@@ -273,6 +289,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label3.Size = new System.Drawing.Size(211, 25);
             this.label3.TabIndex = 0;
             this.label3.Text = "One leg lean squat";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox2
             // 
@@ -282,6 +299,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.pictureBox2.Size = new System.Drawing.Size(479, 319);
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // groupBox2
             // 
@@ -296,6 +314,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.groupBox2.Size = new System.Drawing.Size(413, 144);
             this.groupBox2.TabIndex = 37;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // label2
             // 
@@ -307,7 +326,8 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(142, 34);
             this.label2.TabIndex = 14;
-            this.label2.Text = "45 Reps";
+            this.label2.Text = "20 Reps";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label10
             // 
@@ -319,7 +339,8 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(142, 34);
             this.label10.TabIndex = 12;
-            this.label10.Text = "45 Reps";
+            this.label10.Text = "20 Reps";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // button1
             // 
@@ -332,6 +353,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.button1.TabIndex = 11;
             this.button1.Text = "VIEW";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -344,6 +366,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label1.Size = new System.Drawing.Size(139, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Slow squats";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
@@ -354,6 +377,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.pictureBox1.Size = new System.Drawing.Size(413, 207);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // groupBox1
             // 
@@ -368,6 +392,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.groupBox1.Size = new System.Drawing.Size(413, 144);
             this.groupBox1.TabIndex = 36;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // label27
             // 
@@ -380,6 +405,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label27.Size = new System.Drawing.Size(155, 34);
             this.label27.TabIndex = 34;
             this.label27.Text = "EXERCISE";
+            this.label27.Click += new System.EventHandler(this.label27_Click);
             // 
             // label9
             // 
@@ -392,6 +418,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label9.Size = new System.Drawing.Size(90, 34);
             this.label9.TabIndex = 33;
             this.label9.Text = "LEGS";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // btnBack
             // 

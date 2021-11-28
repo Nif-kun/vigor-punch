@@ -62,10 +62,11 @@
       <DependentUpon>CableCrossOver.cs</DependentUpon>
     </Compile>
     <Compile Include="Exercises\Types\Male\Chest\Chest.cs">
+    <Compile Include="Exercises\Types\Male\Abdominal\frmManAbdominalEx.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exercises\Types\Male\Chest\Chest.Designer.cs">
-      <DependentUpon>Chest.cs</DependentUpon>
+    <Compile Include="Exercises\Types\Male\Abdominal\frmManAbdominalEx.Designer.cs">
+      <DependentUpon>frmManAbdominalEx.cs</DependentUpon>
     </Compile>
     <Compile Include="Exercises\Types\Male\Chest\CloseGrip.cs">
       <SubType>Form</SubType>
@@ -116,28 +117,41 @@
       <DependentUpon>SuspendedPushUps.cs</DependentUpon>
     </Compile>
     <Compile Include="Exercises\Types\Male\Legs\frmManLegEX.cs">
+    <Compile Include="Exercises\Types\Male\Arms\frmManArmsEx.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exercises\Types\Male\Legs\frmManLegEX.Designer.cs">
-      <DependentUpon>frmManLegEX.cs</DependentUpon>
+    <Compile Include="Exercises\Types\Male\Arms\frmManArmsEx.Designer.cs">
+      <DependentUpon>frmManArmsEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\frmManChestEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\frmManChestEx.Designer.cs">
+      <DependentUpon>frmManChestEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Legs\frmManLegEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Legs\frmManLegEx.Designer.cs">
+      <DependentUpon>frmManLegEx.cs</DependentUpon>
     </Compile>
     <Compile Include="Exercises\Types\Woman\Back\WomanBackEX.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exercises\Types\Woman\Back\WomanBackEX.Designer.cs">
-      <DependentUpon>WomanBackEX.cs</DependentUpon>
+    <Compile Include="Exercises\Types\Female\Back\frmFemaleBackEx.Designer.cs">
+      <DependentUpon>frmFemaleBackEx.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exercises\Types\Woman\Chest\WomanChest.cs">
+    <Compile Include="Exercises\Types\Female\Chest\frmFemaleChestEx.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exercises\Types\Woman\Chest\WomanChest.Designer.cs">
-      <DependentUpon>WomanChest.cs</DependentUpon>
+    <Compile Include="Exercises\Types\Female\Chest\frmFemaleChestEx.Designer.cs">
+      <DependentUpon>frmFemaleChestEx.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exercises\Types\Woman\WomanWorkouts.cs">
+    <Compile Include="Exercises\Types\Female\FemaleWorkouts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exercises\Types\Woman\WomanWorkouts.Designer.cs">
-      <DependentUpon>WomanWorkouts.cs</DependentUpon>
+    <Compile Include="Exercises\Types\Female\FemaleWorkouts.Designer.cs">
+      <DependentUpon>FemaleWorkouts.cs</DependentUpon>
     </Compile>
     <Compile Include="Start\Start.cs">
       <SubType>Form</SubType>
@@ -187,11 +201,11 @@
     <Compile Include="Misc\Form8.Designer.cs">
       <DependentUpon>Form8.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exercises\Types\Male\Back\frmManBackEX.cs">
+    <Compile Include="Exercises\Types\Male\Back\frmManBackEx.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exercises\Types\Male\Back\frmManBackEX.Designer.cs">
-      <DependentUpon>frmManBackEX.cs</DependentUpon>
+    <Compile Include="Exercises\Types\Male\Back\frmManBackEx.Designer.cs">
+      <DependentUpon>frmManBackEx.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -200,11 +214,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Exercises\Types\Male\Workouts.cs">
+    <Compile Include="Exercises\Types\Male\MaleWorkouts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exercises\Types\Male\Workouts.Designer.cs">
-      <DependentUpon>Workouts.cs</DependentUpon>
+    <Compile Include="Exercises\Types\Male\MaleWorkouts.Designer.cs">
+      <DependentUpon>MaleWorkouts.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Exercises\Types\Male\Chest\BarbellBench.resx">
       <DependentUpon>BarbellBench.cs</DependentUpon>
@@ -214,6 +228,14 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Chest\Chest.resx">
       <DependentUpon>Chest.cs</DependentUpon>
+    <EmbeddedResource Include="Exercises\Types\Male\Abdominal\frmManAbdominalEx.resx">
+      <DependentUpon>frmManAbdominalEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Arms\frmManArmsEx.resx">
+      <DependentUpon>frmManArmsEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Chest\frmManChestEx.resx">
+      <DependentUpon>frmManChestEx.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Chest\CloseGrip.resx">
       <DependentUpon>CloseGrip.cs</DependentUpon>
@@ -241,15 +263,17 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Legs\frmManLegEX.resx">
       <DependentUpon>frmManLegEX.cs</DependentUpon>
+    <EmbeddedResource Include="Exercises\Types\Male\Legs\frmManLegEx.resx">
+      <DependentUpon>frmManLegEx.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Woman\Back\WomanBackEX.resx">
       <DependentUpon>WomanBackEX.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exercises\Types\Woman\Chest\WomanChest.resx">
-      <DependentUpon>WomanChest.cs</DependentUpon>
+    <EmbeddedResource Include="Exercises\Types\Female\Chest\frmFemaleChestEx.resx">
+      <DependentUpon>frmFemaleChestEx.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exercises\Types\Woman\WomanWorkouts.resx">
-      <DependentUpon>WomanWorkouts.cs</DependentUpon>
+    <EmbeddedResource Include="Exercises\Types\Female\FemaleWorkouts.resx">
+      <DependentUpon>FemaleWorkouts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Start\Start.resx">
       <DependentUpon>Start.cs</DependentUpon>
@@ -275,16 +299,16 @@
     <EmbeddedResource Include="Misc\Form8.resx">
       <DependentUpon>Form8.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exercises\Types\Male\Back\frmManBackEX.resx">
-      <DependentUpon>frmManBackEX.cs</DependentUpon>
+    <EmbeddedResource Include="Exercises\Types\Male\Back\frmManBackEx.resx">
+      <DependentUpon>frmManBackEx.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exercises\Types\Male\Workouts.resx">
-      <DependentUpon>Workouts.cs</DependentUpon>
+    <EmbeddedResource Include="Exercises\Types\Male\MaleWorkouts.resx">
+      <DependentUpon>MaleWorkouts.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -302,8 +326,6 @@
   <ItemGroup>
     <None Include="Resources\cable-crossovers %282%29.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Exercises\Types\Female\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
