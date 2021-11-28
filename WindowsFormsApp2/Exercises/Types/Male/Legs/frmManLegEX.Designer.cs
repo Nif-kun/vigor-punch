@@ -94,7 +94,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(142, 34);
             this.label6.TabIndex = 16;
-            this.label6.Text = "45 Reps";
+            this.label6.Text = "20 Reps";
             // 
             // button4
             // 
@@ -154,7 +154,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(142, 34);
             this.label8.TabIndex = 17;
-            this.label8.Text = "45 Reps";
+            this.label8.Text = "18 Reps";
             // 
             // button5
             // 
@@ -238,7 +238,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(142, 34);
             this.label4.TabIndex = 15;
-            this.label4.Text = "45 Reps";
+            this.label4.Text = "20 Reps";
             // 
             // pictureBox3
             // 
@@ -307,7 +307,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(142, 34);
             this.label2.TabIndex = 14;
-            this.label2.Text = "45 Reps";
+            this.label2.Text = "20 Reps";
             // 
             // label10
             // 
@@ -319,7 +319,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(142, 34);
             this.label10.TabIndex = 12;
-            this.label10.Text = "45 Reps";
+            this.label10.Text = "20 Reps";
             // 
             // button1
             // 
