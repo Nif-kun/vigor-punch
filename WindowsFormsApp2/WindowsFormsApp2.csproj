@@ -67,11 +67,41 @@
     <Compile Include="Exercises\Types\Female\FemaleWorkouts.Designer.cs">
       <DependentUpon>FemaleWorkouts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercises\Types\Male\Abdominal\ABRollOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Abdominal\ABRollOut.Designer.cs">
+      <DependentUpon>ABRollOut.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercises\Types\Male\Abdominal\frmManAbdominalEx.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Exercises\Types\Male\Abdominal\frmManAbdominalEx.Designer.cs">
       <DependentUpon>frmManAbdominalEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Abdominal\HangingKnee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Abdominal\HangingKnee.Designer.cs">
+      <DependentUpon>HangingKnee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Abdominal\KeepOnPlanking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Abdominal\KeepOnPlanking.Designer.cs">
+      <DependentUpon>KeepOnPlanking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Abdominal\ObliqueCrunch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Abdominal\ObliqueCrunch.Designer.cs">
+      <DependentUpon>ObliqueCrunch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Abdominal\PushUpsToJackKnife.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Abdominal\PushUpsToJackKnife.Designer.cs">
+      <DependentUpon>PushUpsToJackKnife.cs</DependentUpon>
     </Compile>
     <Compile Include="Exercises\Types\Male\Arms\frmManArmsEx.cs">
       <SubType>Form</SubType>
@@ -233,8 +263,23 @@
     <EmbeddedResource Include="Exercises\Types\Female\FemaleWorkouts.resx">
       <DependentUpon>FemaleWorkouts.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Abdominal\ABRollOut.resx">
+      <DependentUpon>ABRollOut.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Abdominal\frmManAbdominalEx.resx">
       <DependentUpon>frmManAbdominalEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Abdominal\HangingKnee.resx">
+      <DependentUpon>HangingKnee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Abdominal\KeepOnPlanking.resx">
+      <DependentUpon>KeepOnPlanking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Abdominal\ObliqueCrunch.resx">
+      <DependentUpon>ObliqueCrunch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Abdominal\PushUpsToJackKnife.resx">
+      <DependentUpon>PushUpsToJackKnife.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Arms\frmManArmsEx.resx">
       <DependentUpon>frmManArmsEx.cs</DependentUpon>
