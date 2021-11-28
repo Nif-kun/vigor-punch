@@ -35,5 +35,14 @@ namespace WindowsFormsApp2
             backEx.Show();
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmManLegEX legEx = new frmManLegEX;
+            legEx.Closed += (s, args) => this.Close();
+            legEx.Show();
+
+        }
     }
 }

@@ -59,11 +59,11 @@ namespace WindowsFormsApp2
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -101,6 +101,7 @@ namespace WindowsFormsApp2
             this.label27.Size = new System.Drawing.Size(155, 34);
             this.label27.TabIndex = 25;
             this.label27.Text = "EXERCISE";
+            this.label27.Click += new System.EventHandler(this.label27_Click);
             // 
             // label9
             // 
@@ -113,6 +114,7 @@ namespace WindowsFormsApp2
             this.label9.Size = new System.Drawing.Size(97, 34);
             this.label9.TabIndex = 24;
             this.label9.Text = "BACK";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // groupBox1
             // 
@@ -127,6 +129,7 @@ namespace WindowsFormsApp2
             this.groupBox1.Size = new System.Drawing.Size(413, 144);
             this.groupBox1.TabIndex = 27;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // label10
             // 
@@ -139,6 +142,7 @@ namespace WindowsFormsApp2
             this.label10.Size = new System.Drawing.Size(142, 34);
             this.label10.TabIndex = 12;
             this.label10.Text = "10 Reps";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // button1
             // 
@@ -151,6 +155,7 @@ namespace WindowsFormsApp2
             this.button1.TabIndex = 11;
             this.button1.Text = "VIEW";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -163,6 +168,7 @@ namespace WindowsFormsApp2
             this.label1.Size = new System.Drawing.Size(166, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Lat Pull downs";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
@@ -173,6 +179,7 @@ namespace WindowsFormsApp2
             this.pictureBox1.Size = new System.Drawing.Size(413, 207);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // groupBox2
             // 
@@ -187,6 +194,7 @@ namespace WindowsFormsApp2
             this.groupBox2.Size = new System.Drawing.Size(413, 144);
             this.groupBox2.TabIndex = 28;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // label2
             // 
@@ -199,6 +207,7 @@ namespace WindowsFormsApp2
             this.label2.Size = new System.Drawing.Size(142, 34);
             this.label2.TabIndex = 12;
             this.label2.Text = "15 Reps";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button2
             // 
@@ -211,6 +220,7 @@ namespace WindowsFormsApp2
             this.button2.TabIndex = 11;
             this.button2.Text = "VIEW";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label3
             // 
@@ -223,6 +233,7 @@ namespace WindowsFormsApp2
             this.label3.Size = new System.Drawing.Size(100, 25);
             this.label3.TabIndex = 0;
             this.label3.Text = "Pull Ups";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox2
             // 
@@ -233,6 +244,7 @@ namespace WindowsFormsApp2
             this.pictureBox2.Size = new System.Drawing.Size(413, 182);
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // groupBox3
             // 
@@ -247,6 +259,7 @@ namespace WindowsFormsApp2
             this.groupBox3.Size = new System.Drawing.Size(413, 144);
             this.groupBox3.TabIndex = 29;
             this.groupBox3.TabStop = false;
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // label4
             // 
@@ -259,6 +272,7 @@ namespace WindowsFormsApp2
             this.label4.Size = new System.Drawing.Size(142, 34);
             this.label4.TabIndex = 12;
             this.label4.Text = "12 Reps";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // button3
             // 
@@ -271,6 +285,7 @@ namespace WindowsFormsApp2
             this.button3.TabIndex = 11;
             this.button3.Text = "VIEW";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label5
             // 
@@ -283,6 +298,7 @@ namespace WindowsFormsApp2
             this.label5.Size = new System.Drawing.Size(206, 25);
             this.label5.TabIndex = 0;
             this.label5.Text = "Seated Cable Row";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // pictureBox3
             // 
@@ -293,6 +309,7 @@ namespace WindowsFormsApp2
             this.pictureBox3.Size = new System.Drawing.Size(413, 182);
             this.pictureBox3.TabIndex = 13;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // groupBox4
             // 
@@ -307,6 +324,7 @@ namespace WindowsFormsApp2
             this.groupBox4.Size = new System.Drawing.Size(413, 144);
             this.groupBox4.TabIndex = 30;
             this.groupBox4.TabStop = false;
+            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // label6
             // 
@@ -319,6 +337,7 @@ namespace WindowsFormsApp2
             this.label6.Size = new System.Drawing.Size(142, 34);
             this.label6.TabIndex = 12;
             this.label6.Text = "10 Reps";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // button4
             // 
@@ -331,6 +350,7 @@ namespace WindowsFormsApp2
             this.button4.TabIndex = 11;
             this.button4.Text = "VIEW";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label7
             // 
@@ -343,6 +363,7 @@ namespace WindowsFormsApp2
             this.label7.Size = new System.Drawing.Size(238, 25);
             this.label7.TabIndex = 0;
             this.label7.Text = "Bent Over Barbell Lift";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // pictureBox4
             // 
@@ -353,6 +374,7 @@ namespace WindowsFormsApp2
             this.pictureBox4.Size = new System.Drawing.Size(413, 182);
             this.pictureBox4.TabIndex = 13;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // groupBox5
             // 
@@ -367,6 +389,7 @@ namespace WindowsFormsApp2
             this.groupBox5.Size = new System.Drawing.Size(413, 144);
             this.groupBox5.TabIndex = 31;
             this.groupBox5.TabStop = false;
+            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
             // label8
             // 
@@ -379,6 +402,7 @@ namespace WindowsFormsApp2
             this.label8.Size = new System.Drawing.Size(142, 34);
             this.label8.TabIndex = 12;
             this.label8.Text = "10 Reps";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // button5
             // 
@@ -391,6 +415,7 @@ namespace WindowsFormsApp2
             this.button5.TabIndex = 11;
             this.button5.Text = "VIEW";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label11
             // 
@@ -403,6 +428,7 @@ namespace WindowsFormsApp2
             this.label11.Size = new System.Drawing.Size(153, 25);
             this.label11.TabIndex = 0;
             this.label11.Text = "Machine Row";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // pictureBox5
             // 
@@ -413,6 +439,7 @@ namespace WindowsFormsApp2
             this.pictureBox5.Size = new System.Drawing.Size(413, 229);
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // groupBox6
             // 
@@ -428,52 +455,7 @@ namespace WindowsFormsApp2
             this.groupBox6.Size = new System.Drawing.Size(413, 144);
             this.groupBox6.TabIndex = 32;
             this.groupBox6.TabStop = false;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.SystemColors.WindowText;
-            this.label12.Font = new System.Drawing.Font("Kudos Black SSi", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(15, 91);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(186, 34);
-            this.label12.TabIndex = 12;
-            this.label12.Text = "10X2 Reps";
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Font = new System.Drawing.Font("Kudos Black SSi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(206, 89);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(100, 40);
-            this.button6.TabIndex = 11;
-            this.button6.Text = "VIEW";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Teal;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label13.Location = new System.Drawing.Point(6, 16);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(126, 25);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "Single Arm";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox6.Location = new System.Drawing.Point(-1, -77);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(413, 191);
-            this.pictureBox6.TabIndex = 13;
-            this.pictureBox6.TabStop = false;
+            this.groupBox6.Enter += new System.EventHandler(this.groupBox6_Enter);
             // 
             // label14
             // 
@@ -486,6 +468,57 @@ namespace WindowsFormsApp2
             this.label14.Size = new System.Drawing.Size(162, 25);
             this.label14.TabIndex = 14;
             this.label14.Text = "Dumbbell Row";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.SystemColors.WindowText;
+            this.label12.Font = new System.Drawing.Font("Kudos Black SSi", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(15, 91);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(186, 34);
+            this.label12.TabIndex = 12;
+            this.label12.Text = "10X2 Reps";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.White;
+            this.button6.Font = new System.Drawing.Font("Kudos Black SSi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.Black;
+            this.button6.Location = new System.Drawing.Point(206, 89);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(100, 40);
+            this.button6.TabIndex = 11;
+            this.button6.Text = "VIEW";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Teal;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label13.Location = new System.Drawing.Point(6, 16);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(126, 25);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "Single Arm";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox6.Location = new System.Drawing.Point(-1, -77);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(413, 191);
+            this.pictureBox6.TabIndex = 13;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // frmManBackEX
             // 
