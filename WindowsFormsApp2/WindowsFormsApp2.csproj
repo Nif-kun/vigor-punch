@@ -145,11 +145,47 @@
     <Compile Include="Exercises\Types\Male\Arms\ZottmanCurls.Designer.cs">
       <DependentUpon>ZottmanCurls.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercises\Types\Male\Back\BentOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Back\BentOver.Designer.cs">
+      <DependentUpon>BentOver.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercises\Types\Male\Back\frmManBackEX.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Exercises\Types\Male\Back\frmManBackEX.Designer.cs">
       <DependentUpon>frmManBackEX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Back\LatPulldown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Back\LatPulldown.Designer.cs">
+      <DependentUpon>LatPulldown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Back\MachineRow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Back\MachineRow.Designer.cs">
+      <DependentUpon>MachineRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Back\PullUps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Back\PullUps.Designer.cs">
+      <DependentUpon>PullUps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Back\SeatedCable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Back\SeatedCable.Designer.cs">
+      <DependentUpon>SeatedCable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Back\SingleArmDumbell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Back\SingleArmDumbell.Designer.cs">
+      <DependentUpon>SingleArmDumbell.cs</DependentUpon>
     </Compile>
     <Compile Include="Exercises\Types\Male\Chest\BarbellBench.cs">
       <SubType>Form</SubType>
@@ -335,8 +371,26 @@
     <EmbeddedResource Include="Exercises\Types\Male\Arms\ZottmanCurls.resx">
       <DependentUpon>ZottmanCurls.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Back\BentOver.resx">
+      <DependentUpon>BentOver.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Back\frmManBackEX.resx">
       <DependentUpon>frmManBackEX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Back\LatPulldown.resx">
+      <DependentUpon>LatPulldown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Back\MachineRow.resx">
+      <DependentUpon>MachineRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Back\PullUps.resx">
+      <DependentUpon>PullUps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Back\SeatedCable.resx">
+      <DependentUpon>SeatedCable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Back\SingleArmDumbell.resx">
+      <DependentUpon>SingleArmDumbell.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Chest\BarbellBench.resx">
       <DependentUpon>BarbellBench.cs</DependentUpon>
