@@ -49,11 +49,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercises\Types\Male\Chest\BarbellBench.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\BarbellBench.Designer.cs">
+      <DependentUpon>BarbellBench.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\CableCrossOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\CableCrossOver.Designer.cs">
+      <DependentUpon>CableCrossOver.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercises\Types\Male\Chest\Chest.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Exercises\Types\Male\Chest\Chest.Designer.cs">
       <DependentUpon>Chest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\CloseGrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\CloseGrip.Designer.cs">
+      <DependentUpon>CloseGrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\Drip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\Drip.Designer.cs">
+      <DependentUpon>Drip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\InclineDumbell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\InclineDumbell.Designer.cs">
+      <DependentUpon>InclineDumbell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\PlatePressOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\PlatePressOut.Designer.cs">
+      <DependentUpon>PlatePressOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\PushUps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\PushUps.Designer.cs">
+      <DependentUpon>PushUps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\ResistancePull.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\ResistancePull.Designer.cs">
+      <DependentUpon>ResistancePull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\SeatedPec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\SeatedPec.Designer.cs">
+      <DependentUpon>SeatedPec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\SuspendedPushUps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\SuspendedPushUps.Designer.cs">
+      <DependentUpon>SuspendedPushUps.cs</DependentUpon>
     </Compile>
     <Compile Include="Exercises\Types\Male\Legs\frmManLegEX.cs">
       <SubType>Form</SubType>
@@ -146,8 +206,38 @@
     <Compile Include="Exercises\Types\Male\Workouts.Designer.cs">
       <DependentUpon>Workouts.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Exercises\Types\Male\Chest\BarbellBench.resx">
+      <DependentUpon>BarbellBench.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Chest\CableCrossOver.resx">
+      <DependentUpon>CableCrossOver.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Chest\Chest.resx">
       <DependentUpon>Chest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Chest\CloseGrip.resx">
+      <DependentUpon>CloseGrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Chest\Drip.resx">
+      <DependentUpon>Drip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Chest\InclineDumbell.resx">
+      <DependentUpon>InclineDumbell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Chest\PlatePressOut.resx">
+      <DependentUpon>PlatePressOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Chest\PushUps.resx">
+      <DependentUpon>PushUps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Chest\ResistancePull.resx">
+      <DependentUpon>ResistancePull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Chest\SeatedPec.resx">
+      <DependentUpon>SeatedPec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Chest\SuspendedPushUps.resx">
+      <DependentUpon>SuspendedPushUps.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Legs\frmManLegEX.resx">
       <DependentUpon>frmManLegEX.cs</DependentUpon>
