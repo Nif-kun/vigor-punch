@@ -223,6 +223,9 @@
     <Compile Include="Exercises\Types\Male\Chest\InclineDumbell.Designer.cs">
       <DependentUpon>InclineDumbell.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercises\Types\Male\Chest\PlatePressOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Exercises\Types\Male\Chest\PlatePressOut.Designer.cs">
       <DependentUpon>PlatePressOut.cs</DependentUpon>
     </Compile>
@@ -424,6 +427,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Chest\SuspendedPushUps.resx">
       <DependentUpon>SuspendedPushUps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Legs\frmManLegEX.resx">
+      <DependentUpon>frmManLegEX.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\MaleWorkouts.resx">
       <DependentUpon>MaleWorkouts.cs</DependentUpon>
