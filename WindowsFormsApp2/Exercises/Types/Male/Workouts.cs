@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp2.Exercises.Types.Male.Arms;
 using WindowsFormsApp2.Exercises.Types.Male.Legs;
 
 namespace WindowsFormsApp2
@@ -44,6 +45,15 @@ namespace WindowsFormsApp2
             legEx.Closed += (s, args) => this.Close();
             legEx.Show();
              
+        }
+
+        private void btnManArmStart_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmManArmsEx armEx = new frmManArmsEx();
+            armEx.Closed += (s, args) => this.Close();
+            armEx.Show();
+
         }
     }
 }
