@@ -79,6 +79,18 @@
     <Compile Include="Exercises\Types\Female\FemaleWorkouts.Designer.cs">
       <DependentUpon>FemaleWorkouts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercises\Types\Female\Legs\WLegEX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Legs\WLegEX.Designer.cs">
+      <DependentUpon>WLegEX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Shoulders\WShoulderEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Shoulders\WShoulderEx.Designer.cs">
+      <DependentUpon>WShoulderEx.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercises\Types\Male\Abdominal\ABRollOut.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -313,11 +325,54 @@
     <Compile Include="Exercises\Types\Male\Shoulder\frmManShoulderEx.Designer.cs">
       <DependentUpon>frmManShoulderEx.cs</DependentUpon>
     </Compile>
-    <Compile Include="Start\Start.cs">
+    <Compile Include="Exercises\Types\Male\Shoulder\PikePushUps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Shoulder\PikePushUps.Designer.cs">
+      <DependentUpon>PikePushUps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Shoulder\PlanchLean.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Shoulder\PlanchLean.Designer.cs">
+      <DependentUpon>PlanchLean.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Shoulder\PseudoPushUps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Shoulder\PseudoPushUps.Designer.cs">
+      <DependentUpon>PseudoPushUps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Shoulder\ShoulderTouch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Male\Shoulder\ShoulderTouch.Designer.cs">
+      <DependentUpon>ShoulderTouch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\OptionsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\OptionsWindow.Designer.cs">
+      <DependentUpon>OptionsWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Localdb\User.cs" />
+    <Compile Include="Start\Intro.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Start\Intro.Designer.cs">
       <DependentUpon>Intro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start\Signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start\Signup.Designer.cs">
+      <DependentUpon>Signup.cs</DependentUpon>
     </Compile>
     <Compile Include="Misc\Form2.cs">
       <SubType>Form</SubType>
@@ -382,6 +437,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Female\FemaleWorkouts.resx">
       <DependentUpon>FemaleWorkouts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Legs\WLegEX.resx">
+      <DependentUpon>WLegEX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Shoulders\WShoulderEx.resx">
+      <DependentUpon>WShoulderEx.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Male\Abdominal\ABRollOut.resx">
       <DependentUpon>ABRollOut.cs</DependentUpon>
@@ -500,8 +561,29 @@
     <EmbeddedResource Include="Exercises\Types\Male\Shoulder\frmManShoulderEx.resx">
       <DependentUpon>frmManShoulderEx.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Start\Start.resx">
-      <DependentUpon>Start.cs</DependentUpon>
+    <EmbeddedResource Include="Exercises\Types\Male\Shoulder\PikePushUps.resx">
+      <DependentUpon>PikePushUps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Shoulder\PlanchLean.resx">
+      <DependentUpon>PlanchLean.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Shoulder\PseudoPushUps.resx">
+      <DependentUpon>PseudoPushUps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Male\Shoulder\ShoulderTouch.resx">
+      <DependentUpon>ShoulderTouch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\OptionsWindow.resx">
+      <DependentUpon>OptionsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start\Intro.resx">
+      <DependentUpon>Intro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start\Signup.resx">
+      <DependentUpon>Signup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Misc\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
