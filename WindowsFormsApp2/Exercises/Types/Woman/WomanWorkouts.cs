@@ -21,7 +21,7 @@ namespace WindowsFormsApp2
         {
             
             this.Hide();
-            WomanChestEx chestEx = new WomanChestEx();
+            WChestEx chestEx = new WChestEx();
             chestEx.Closed += (s, args) => this.Close();
             chestEx.Show();
 

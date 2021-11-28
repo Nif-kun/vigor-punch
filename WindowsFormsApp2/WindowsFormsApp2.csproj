@@ -55,6 +55,18 @@
     <Compile Include="Exercises\Types\Male\Chest\Chest.Designer.cs">
       <DependentUpon>Chest.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercises\Types\Woman\Back\WomanBackEX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Woman\Back\WomanBackEX.Designer.cs">
+      <DependentUpon>WomanBackEX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Woman\Chest\WomanChest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Woman\Chest\WomanChest.Designer.cs">
+      <DependentUpon>WomanChest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercises\Types\Woman\WomanWorkouts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +143,12 @@
     <EmbeddedResource Include="Exercises\Types\Male\Chest\Chest.resx">
       <DependentUpon>Chest.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Woman\Back\WomanBackEX.resx">
+      <DependentUpon>WomanBackEX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Woman\Chest\WomanChest.resx">
+      <DependentUpon>WomanChest.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Woman\WomanWorkouts.resx">
       <DependentUpon>WomanWorkouts.cs</DependentUpon>
     </EmbeddedResource>
@@ -187,7 +205,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Exercises\Types\Female\" />
-    <Folder Include="Exercises\Types\Woman\Chest\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
