@@ -93,6 +93,7 @@ namespace WindowsFormsApp2
             this.btnBack.TabIndex = 24;
             this.btnBack.Text = "< BACK";
             this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // pictureBox1
             // 
@@ -156,7 +157,7 @@ namespace WindowsFormsApp2
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(103, 22);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(97, 31);
+            this.label9.Size = new System.Drawing.Size(143, 31);
             this.label9.TabIndex = 29;
             this.label9.Text = "WOMEN\'S";
             // 
@@ -299,7 +300,7 @@ namespace WindowsFormsApp2
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(429, 571);
+            this.ClientSize = new System.Drawing.Size(399, 575);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox6);

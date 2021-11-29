@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp2.Exercises.Types;
 using WindowsFormsApp2.Exercises.Types.Male.Abdominal;
 using WindowsFormsApp2.Exercises.Types.Male.Arms;
 using WindowsFormsApp2.Exercises.Types.Male.Legs;
@@ -72,6 +73,14 @@ namespace WindowsFormsApp2
             frmManAbdominalEx abdEx = new frmManAbdominalEx();
             abdEx.Closed += (s, args) => this.Close();
             abdEx.Show();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            OptionsWindow options = new OptionsWindow();
+            options.Closed += (s, args) => this.Close();
+            options.Show();
         }
     }
 }

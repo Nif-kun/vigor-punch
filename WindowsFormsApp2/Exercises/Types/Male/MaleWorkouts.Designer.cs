@@ -63,10 +63,9 @@ namespace WindowsFormsApp2
             // 
             this.btnManChestStart.BackColor = System.Drawing.Color.LightGray;
             this.btnManChestStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnManChestStart.Location = new System.Drawing.Point(36, 266);
-            this.btnManChestStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnManChestStart.Location = new System.Drawing.Point(27, 216);
             this.btnManChestStart.Name = "btnManChestStart";
-            this.btnManChestStart.Size = new System.Drawing.Size(133, 49);
+            this.btnManChestStart.Size = new System.Drawing.Size(100, 40);
             this.btnManChestStart.TabIndex = 0;
             this.btnManChestStart.Text = "START";
             this.btnManChestStart.UseVisualStyleBackColor = false;
@@ -76,10 +75,9 @@ namespace WindowsFormsApp2
             // 
             this.btnManBackStart.BackColor = System.Drawing.Color.LightGray;
             this.btnManBackStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnManBackStart.Location = new System.Drawing.Point(36, 524);
-            this.btnManBackStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnManBackStart.Location = new System.Drawing.Point(27, 426);
             this.btnManBackStart.Name = "btnManBackStart";
-            this.btnManBackStart.Size = new System.Drawing.Size(133, 49);
+            this.btnManBackStart.Size = new System.Drawing.Size(100, 40);
             this.btnManBackStart.TabIndex = 1;
             this.btnManBackStart.Text = "START";
             this.btnManBackStart.UseVisualStyleBackColor = false;
@@ -89,31 +87,29 @@ namespace WindowsFormsApp2
             // 
             this.btnBack.BackColor = System.Drawing.Color.Silver;
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.Location = new System.Drawing.Point(16, 27);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Location = new System.Drawing.Point(12, 22);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(100, 42);
+            this.btnBack.Size = new System.Drawing.Size(75, 34);
             this.btnBack.TabIndex = 24;
             this.btnBack.Text = "< BACK";
             this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(16, 143);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 116);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(485, 209);
+            this.pictureBox1.Size = new System.Drawing.Size(364, 170);
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.Location = new System.Drawing.Point(16, 398);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 323);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(485, 209);
+            this.pictureBox2.Size = new System.Drawing.Size(364, 170);
             this.pictureBox2.TabIndex = 26;
             this.pictureBox2.TabStop = false;
             // 
@@ -123,10 +119,9 @@ namespace WindowsFormsApp2
             this.label1.BackColor = System.Drawing.Color.LightCoral;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(28, 194);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(21, 158);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(291, 36);
+            this.label1.Size = new System.Drawing.Size(240, 29);
             this.label1.TabIndex = 27;
             this.label1.Text = "CHEST WORKOUT";
             // 
@@ -136,10 +131,9 @@ namespace WindowsFormsApp2
             this.label2.BackColor = System.Drawing.Color.LightCoral;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(28, 454);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(21, 369);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(272, 36);
+            this.label2.Size = new System.Drawing.Size(221, 29);
             this.label2.TabIndex = 28;
             this.label2.Text = "BACK WORKOUT";
             // 
@@ -149,10 +143,9 @@ namespace WindowsFormsApp2
             this.label27.BackColor = System.Drawing.Color.Crimson;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(237, 69);
-            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label27.Location = new System.Drawing.Point(178, 56);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(195, 39);
+            this.label27.Size = new System.Drawing.Size(156, 31);
             this.label27.TabIndex = 30;
             this.label27.Text = "WORKOUT";
             // 
@@ -162,10 +155,9 @@ namespace WindowsFormsApp2
             this.label9.BackColor = System.Drawing.SystemColors.WindowText;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(137, 27);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(103, 22);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(122, 39);
+            this.label9.Size = new System.Drawing.Size(97, 31);
             this.label9.TabIndex = 29;
             this.label9.Text = "MEN\'S";
             // 
@@ -173,10 +165,9 @@ namespace WindowsFormsApp2
             // 
             this.btnManLegStart.BackColor = System.Drawing.Color.LightGray;
             this.btnManLegStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnManLegStart.Location = new System.Drawing.Point(36, 778);
-            this.btnManLegStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnManLegStart.Location = new System.Drawing.Point(27, 632);
             this.btnManLegStart.Name = "btnManLegStart";
-            this.btnManLegStart.Size = new System.Drawing.Size(133, 49);
+            this.btnManLegStart.Size = new System.Drawing.Size(100, 40);
             this.btnManLegStart.TabIndex = 31;
             this.btnManLegStart.Text = "START";
             this.btnManLegStart.UseVisualStyleBackColor = false;
@@ -186,10 +177,9 @@ namespace WindowsFormsApp2
             // 
             this.btnManArmStart.BackColor = System.Drawing.Color.LightGray;
             this.btnManArmStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnManArmStart.Location = new System.Drawing.Point(36, 1050);
-            this.btnManArmStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnManArmStart.Location = new System.Drawing.Point(27, 853);
             this.btnManArmStart.Name = "btnManArmStart";
-            this.btnManArmStart.Size = new System.Drawing.Size(133, 49);
+            this.btnManArmStart.Size = new System.Drawing.Size(100, 40);
             this.btnManArmStart.TabIndex = 32;
             this.btnManArmStart.Text = "START";
             this.btnManArmStart.UseVisualStyleBackColor = false;
@@ -201,20 +191,18 @@ namespace WindowsFormsApp2
             this.label3.BackColor = System.Drawing.Color.LightCoral;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(28, 708);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(21, 575);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(270, 36);
+            this.label3.Size = new System.Drawing.Size(220, 29);
             this.label3.TabIndex = 33;
             this.label3.Text = "LEGS WORKOUT";
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.Location = new System.Drawing.Point(16, 657);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(12, 534);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(485, 209);
+            this.pictureBox3.Size = new System.Drawing.Size(364, 170);
             this.pictureBox3.TabIndex = 34;
             this.pictureBox3.TabStop = false;
             // 
@@ -224,20 +212,18 @@ namespace WindowsFormsApp2
             this.label4.BackColor = System.Drawing.Color.LightCoral;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(28, 967);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(21, 786);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(278, 36);
+            this.label4.Size = new System.Drawing.Size(225, 29);
             this.label4.TabIndex = 35;
             this.label4.Text = "ARMS WORKOUT";
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.Location = new System.Drawing.Point(16, 917);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(12, 745);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(485, 209);
+            this.pictureBox4.Size = new System.Drawing.Size(364, 170);
             this.pictureBox4.TabIndex = 36;
             this.pictureBox4.TabStop = false;
             // 
@@ -245,10 +231,9 @@ namespace WindowsFormsApp2
             // 
             this.btnShoulderStart.BackColor = System.Drawing.Color.LightGray;
             this.btnShoulderStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnShoulderStart.Location = new System.Drawing.Point(36, 1305);
-            this.btnShoulderStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnShoulderStart.Location = new System.Drawing.Point(27, 1060);
             this.btnShoulderStart.Name = "btnShoulderStart";
-            this.btnShoulderStart.Size = new System.Drawing.Size(133, 49);
+            this.btnShoulderStart.Size = new System.Drawing.Size(100, 40);
             this.btnShoulderStart.TabIndex = 37;
             this.btnShoulderStart.Text = "START";
             this.btnShoulderStart.UseVisualStyleBackColor = false;
@@ -260,10 +245,9 @@ namespace WindowsFormsApp2
             this.label5.BackColor = System.Drawing.Color.LightCoral;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(28, 1202);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(21, 977);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(188, 72);
+            this.label5.Size = new System.Drawing.Size(153, 58);
             this.label5.TabIndex = 38;
             this.label5.Text = "SHOULDER\r\nWORKOUT";
             // 
@@ -271,10 +255,9 @@ namespace WindowsFormsApp2
             // 
             this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(16, 1172);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Location = new System.Drawing.Point(12, 952);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(485, 209);
+            this.pictureBox5.Size = new System.Drawing.Size(364, 170);
             this.pictureBox5.TabIndex = 39;
             this.pictureBox5.TabStop = false;
             // 
@@ -282,10 +265,9 @@ namespace WindowsFormsApp2
             // 
             this.button2.BackColor = System.Drawing.Color.LightGray;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(36, 1553);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(27, 1262);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(133, 49);
+            this.button2.Size = new System.Drawing.Size(100, 40);
             this.button2.TabIndex = 40;
             this.button2.Text = "START";
             this.button2.UseVisualStyleBackColor = false;
@@ -297,10 +279,9 @@ namespace WindowsFormsApp2
             this.label6.BackColor = System.Drawing.Color.LightCoral;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(28, 1452);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(21, 1180);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(201, 72);
+            this.label6.Size = new System.Drawing.Size(161, 58);
             this.label6.TabIndex = 41;
             this.label6.Text = "ABDOMINAL\r\nWORKOUT";
             // 
@@ -308,19 +289,18 @@ namespace WindowsFormsApp2
             // 
             this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(16, 1420);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Location = new System.Drawing.Point(12, 1154);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(485, 209);
+            this.pictureBox6.Size = new System.Drawing.Size(364, 170);
             this.pictureBox6.TabIndex = 42;
             this.pictureBox6.TabStop = false;
             // 
             // MaleWorkout
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(550, 703);
+            this.ClientSize = new System.Drawing.Size(397, 580);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox6);
@@ -342,7 +322,6 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox4);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MaleWorkout";
             this.Text = "Man\'s Workout";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
