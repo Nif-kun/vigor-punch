@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2.Exercises.Types.Male.Arms
 {
-    public partial class InclineDumbellSkullCrusher : Form
+    public partial class frmInclineDumbellSkullCrusher : Form
     {
-        public InclineDumbellSkullCrusher()
+        public frmInclineDumbellSkullCrusher()
         {
             InitializeComponent();
         }

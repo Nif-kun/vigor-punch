@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2.Exercises.Types.Male.Arms
 {
-    public partial class ReverseGripPushUps : Form
+    public partial class frmReverseGripPushUps : Form
     {
-        public ReverseGripPushUps()
+        public frmReverseGripPushUps()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

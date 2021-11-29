@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp2.Exercises.Types.Male.Arms
 {
-    partial class InclineDumbellSkullCrusher
+    partial class frmInclineDumbellSkullCrusher
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InclineDumbellSkullCrusher));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInclineDumbellSkullCrusher));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -37,20 +37,22 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(2, 30);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 37);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(319, 203);
+            this.pictureBox1.Size = new System.Drawing.Size(425, 250);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // InclineDumbellSkullCrusher
+            // frmInclineDumbellSkullCrusher
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(280, 388);
+            this.ClientSize = new System.Drawing.Size(373, 478);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "InclineDumbellSkullCrusher";
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "frmInclineDumbellSkullCrusher";
             this.Text = "InclineDumbellSkullCrusher";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
