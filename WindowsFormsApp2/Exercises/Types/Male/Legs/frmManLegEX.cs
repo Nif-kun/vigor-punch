@@ -37,7 +37,8 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            frmExplosiveSquat explosiveSquat = new frmExplosiveSquat();
+            explosiveSquat.Show();
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -57,7 +58,8 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            frmLunges lunges = new frmLunges();
+            lunges.Show();
         }
 
         private void label11_Click(object sender, EventArgs e)
@@ -72,7 +74,8 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            frmBulgarianSplitsSquats bulgarianSplitsSquats = new frmBulgarianSplitsSquats();
+            bulgarianSplitsSquats.Show();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -97,7 +100,8 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            frmOneLegSquats oneLegSquats = new frmOneLegSquats();
+            oneLegSquats.Show();
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -127,7 +131,8 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            frmSlowSquats slowSquats = new frmSlowSquats();
+            slowSquats.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)

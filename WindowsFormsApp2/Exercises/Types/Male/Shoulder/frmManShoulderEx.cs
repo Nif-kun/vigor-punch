@@ -24,5 +24,29 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Shoulder
             manWorkout.Closed += (s, args) => this.Close();
             manWorkout.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmPikePushUps pikePushUps = new frmPikePushUps();
+            pikePushUps.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmPseudoPushUps pseudoPushUps = new frmPseudoPushUps();
+            pseudoPushUps.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmPlanchLean planchLean = new frmPlanchLean();
+            planchLean.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmShoulderTouch shoulderTouch = new frmShoulderTouch();
+            shoulderTouch.Show();
+        }
     }
 }

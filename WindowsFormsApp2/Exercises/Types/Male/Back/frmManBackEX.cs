@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp2.Exercises.Types.Male.Back;
 
 namespace WindowsFormsApp2
 {
@@ -47,7 +48,8 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            frmLatPulldown latPulldown = new frmLatPulldown();
+            latPulldown.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -72,7 +74,8 @@ namespace WindowsFormsApp2
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            frmPullUps pullUps = new frmPullUps();
+            pullUps.Show();
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -97,7 +100,8 @@ namespace WindowsFormsApp2
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            frmSeatedCable seatedCable = new frmSeatedCable();
+            seatedCable.Show();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -122,7 +126,8 @@ namespace WindowsFormsApp2
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            frmBentOver bentOver = new frmBentOver();
+            bentOver.Show();
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -147,7 +152,8 @@ namespace WindowsFormsApp2
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            frmMachineRow machineRow = new frmMachineRow();
+            machineRow.Show();
         }
 
         private void label11_Click(object sender, EventArgs e)
@@ -177,7 +183,8 @@ namespace WindowsFormsApp2
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            frmSingleArmDumbell singleArmDumbell = new frmSingleArmDumbell();
+            singleArmDumbell.Show();
         }
 
         private void label13_Click(object sender, EventArgs e)
