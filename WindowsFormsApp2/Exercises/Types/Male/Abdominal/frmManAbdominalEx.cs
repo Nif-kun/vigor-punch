@@ -41,5 +41,11 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             frmHangingKnee hangingKnee = new frmHangingKnee();
             hangingKnee.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmPushUpsToJackKnife pushUpsToJackKnife = new frmPushUpsToJackKnife();
+            pushUpsToJackKnife.Show();
+        }
     }
 }
