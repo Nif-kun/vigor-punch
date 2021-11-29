@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp2.Exercises.Types.Male.Chest;
 
 namespace WindowsFormsApp2
 {
@@ -33,6 +34,12 @@ namespace WindowsFormsApp2
             MaleWorkout manWorkout = new MaleWorkout();
             manWorkout.Closed += (s, args) => this.Close();
             manWorkout.Show();
+        }
+
+        private void cablecrossBtn_Click(object sender, EventArgs e)
+        {
+            frmCableCrossOver cableCrossOver = new frmCableCrossOver();
+            cableCrossOver.Show();
         }
     }
 }
