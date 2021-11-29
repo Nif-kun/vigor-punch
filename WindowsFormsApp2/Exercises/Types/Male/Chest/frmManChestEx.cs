@@ -41,5 +41,59 @@ namespace WindowsFormsApp2
             frmCableCrossOver cableCrossOver = new frmCableCrossOver();
             cableCrossOver.Show();
         }
+
+        private void psuhupBtn_Click(object sender, EventArgs e)
+        {
+            frmPushUps Pushup = new frmPushUps();
+            Pushup.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmSuspendedPushUps SuspendedPushup = new frmSuspendedPushUps();
+            SuspendedPushup.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            frmInclineDumbell InclineDumbell = new frmInclineDumbell();
+            InclineDumbell.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            frmBarbellBench BarbellBench = new frmBarbellBench();
+            BarbellBench.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            frmCloseGrip closegrip = new frmCloseGrip();
+            closegrip.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            frmDips Dips = new frmDips();
+            Dips.Show();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            frmSeatedPec SeatedPec = new frmSeatedPec();
+            SeatedPec.Show();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            frmPlatePressOut PlatePressout = new frmPlatePressOut();
+            PlatePressout.Show();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            frmResistanceBandPull resistanceBandPull = new frmResistanceBandPull();
+            resistanceBandPull.Show();
+        }
     }
 }

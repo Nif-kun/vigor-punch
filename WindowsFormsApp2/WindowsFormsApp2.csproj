@@ -49,17 +49,72 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercises\Types\Female\Abdominal\PlankCrawlOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Abdominal\PlankCrawlOut.Designer.cs">
+      <DependentUpon>PlankCrawlOut.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercises\Types\Female\Abdominal\WAbdominalEx.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Exercises\Types\Female\Abdominal\WAbdominalEx.Designer.cs">
       <DependentUpon>WAbdominalEx.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercises\Types\Female\Arms\ChessFlye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Arms\ChessFlye.Designer.cs">
+      <DependentUpon>ChessFlye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Arms\UprightRow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Arms\UprightRow.Designer.cs">
+      <DependentUpon>UprightRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Arms\FrontRaise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Arms\FrontRaise.Designer.cs">
+      <DependentUpon>FrontRaise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Arms\TricepKickBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Arms\TricepKickBack.Designer.cs">
+      <DependentUpon>TricepKickBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Arms\OverHeadPress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Arms\.Designer.cs">
+      <DependentUpon>OverHeadPress.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Arms\PressUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Arms\PressUp.Designer.cs">
+      <DependentUpon>PressUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercises\Types\Female\Arms\WArmsEx.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Exercises\Types\Female\Arms\WArmsEx.Designer.cs">
       <DependentUpon>WArmsEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Back\BandFacePull.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Back\BandFacePull.Designer.cs">
+      <DependentUpon>BandFacePull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Back\ScapPullUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Back\ScapPullUp.Designer.cs">
+      <DependentUpon>ScapPullUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Exercises\Types\Female\Back\frmFemaleBackEx.cs">
       <SubType>Form</SubType>
@@ -423,11 +478,38 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Exercises\Types\Female\Abdominal\PlankCrawlOut.resx">
+      <DependentUpon>PlankCrawlOut.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Female\Abdominal\WAbdominalEx.resx">
       <DependentUpon>WAbdominalEx.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Arms\ChessFlye.resx">
+      <DependentUpon>ChessFlye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Arms\UprightRow.resx">
+      <DependentUpon>UprightRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Arms\FrontRaise.resx">
+      <DependentUpon>FrontRaise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Arms\TricepKickBack.resx">
+      <DependentUpon>TricepKickBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Arms\OverHeadPress.resx">
+      <DependentUpon>OverHeadPress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Arms\PressUp.resx">
+      <DependentUpon>PressUp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Female\Arms\WArmsEx.resx">
       <DependentUpon>WArmsEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Back\BandFacePull.resx">
+      <DependentUpon>BandFacePull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Back\ScapPullUp.resx">
+      <DependentUpon>ScapPullUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Female\Back\frmFemaleBackEx.resx">
       <DependentUpon>frmFemaleBackEx.cs</DependentUpon>

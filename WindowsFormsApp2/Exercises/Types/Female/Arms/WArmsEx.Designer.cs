@@ -85,9 +85,11 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.groupBox4.Controls.Add(this.label7);
             this.groupBox4.Controls.Add(this.pictureBox4);
             this.groupBox4.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox4.Location = new System.Drawing.Point(12, 530);
+            this.groupBox4.Location = new System.Drawing.Point(16, 652);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(413, 144);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox4.Size = new System.Drawing.Size(551, 177);
             this.groupBox4.TabIndex = 39;
             this.groupBox4.TabStop = false;
             // 
@@ -95,25 +97,28 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.SystemColors.WindowText;
-            this.label6.Font = new System.Drawing.Font("Kudos Black SSi", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(58, 91);
+            this.label6.Location = new System.Drawing.Point(77, 112);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(142, 34);
+            this.label6.Size = new System.Drawing.Size(144, 39);
             this.label6.TabIndex = 12;
             this.label6.Text = "10 Reps";
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Font = new System.Drawing.Font("Kudos Black SSi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(206, 89);
+            this.button4.Location = new System.Drawing.Point(275, 110);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 40);
+            this.button4.Size = new System.Drawing.Size(133, 49);
             this.button4.TabIndex = 11;
             this.button4.Text = "VIEW";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label7
             // 
@@ -121,9 +126,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.label7.BackColor = System.Drawing.Color.Teal;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label7.Location = new System.Drawing.Point(6, 16);
+            this.label7.Location = new System.Drawing.Point(8, 20);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(134, 25);
+            this.label7.Size = new System.Drawing.Size(166, 31);
             this.label7.TabIndex = 0;
             this.label7.Text = "Front Raise";
             // 
@@ -131,9 +137,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox4.Location = new System.Drawing.Point(1, -15);
+            this.pictureBox4.Location = new System.Drawing.Point(1, -18);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(413, 234);
+            this.pictureBox4.Size = new System.Drawing.Size(551, 288);
             this.pictureBox4.TabIndex = 13;
             this.pictureBox4.TabStop = false;
             // 
@@ -141,11 +148,12 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.WindowText;
-            this.label4.Font = new System.Drawing.Font("Kudos Black SSi", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(58, 91);
+            this.label4.Location = new System.Drawing.Point(77, 112);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(142, 34);
+            this.label4.Size = new System.Drawing.Size(144, 39);
             this.label4.TabIndex = 12;
             this.label4.Text = "15 Reps";
             // 
@@ -157,9 +165,11 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.groupBox5.Controls.Add(this.label11);
             this.groupBox5.Controls.Add(this.pictureBox5);
             this.groupBox5.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox5.Location = new System.Drawing.Point(11, 680);
+            this.groupBox5.Location = new System.Drawing.Point(15, 837);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(413, 144);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox5.Size = new System.Drawing.Size(551, 177);
             this.groupBox5.TabIndex = 40;
             this.groupBox5.TabStop = false;
             // 
@@ -167,25 +177,28 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.SystemColors.WindowText;
-            this.label8.Font = new System.Drawing.Font("Kudos Black SSi", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(58, 91);
+            this.label8.Location = new System.Drawing.Point(77, 112);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(142, 34);
+            this.label8.Size = new System.Drawing.Size(144, 39);
             this.label8.TabIndex = 12;
             this.label8.Text = "15 Reps";
             // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Font = new System.Drawing.Font("Kudos Black SSi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(206, 89);
+            this.button5.Location = new System.Drawing.Point(275, 110);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(100, 40);
+            this.button5.Size = new System.Drawing.Size(133, 49);
             this.button5.TabIndex = 11;
             this.button5.Text = "VIEW";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label11
             // 
@@ -193,9 +206,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.label11.BackColor = System.Drawing.Color.Teal;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label11.Location = new System.Drawing.Point(6, 16);
+            this.label11.Location = new System.Drawing.Point(8, 20);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(130, 25);
+            this.label11.Size = new System.Drawing.Size(161, 31);
             this.label11.TabIndex = 0;
             this.label11.Text = "Chess Flye";
             // 
@@ -203,23 +217,26 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox5.Location = new System.Drawing.Point(6, -23);
+            this.pictureBox5.Location = new System.Drawing.Point(8, -28);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(413, 186);
+            this.pictureBox5.Size = new System.Drawing.Size(551, 229);
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Font = new System.Drawing.Font("Kudos Black SSi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(206, 89);
+            this.button3.Location = new System.Drawing.Point(275, 110);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 40);
+            this.button3.Size = new System.Drawing.Size(133, 49);
             this.button3.TabIndex = 11;
             this.button3.Text = "VIEW";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // groupBox6
             // 
@@ -229,9 +246,11 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.groupBox6.Controls.Add(this.label13);
             this.groupBox6.Controls.Add(this.pictureBox6);
             this.groupBox6.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox6.Location = new System.Drawing.Point(12, 830);
+            this.groupBox6.Location = new System.Drawing.Point(16, 1022);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(413, 144);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox6.Size = new System.Drawing.Size(551, 177);
             this.groupBox6.TabIndex = 41;
             this.groupBox6.TabStop = false;
             // 
@@ -239,25 +258,28 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.SystemColors.WindowText;
-            this.label12.Font = new System.Drawing.Font("Kudos Black SSi", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(15, 91);
+            this.label12.Location = new System.Drawing.Point(20, 112);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(142, 34);
+            this.label12.Size = new System.Drawing.Size(144, 39);
             this.label12.TabIndex = 12;
             this.label12.Text = "20 Reps";
             // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Font = new System.Drawing.Font("Kudos Black SSi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(206, 89);
+            this.button6.Location = new System.Drawing.Point(275, 110);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(100, 40);
+            this.button6.Size = new System.Drawing.Size(133, 49);
             this.button6.TabIndex = 11;
             this.button6.Text = "VIEW";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label13
             // 
@@ -265,9 +287,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.label13.BackColor = System.Drawing.Color.Teal;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label13.Location = new System.Drawing.Point(6, 16);
+            this.label13.Location = new System.Drawing.Point(8, 20);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(140, 25);
+            this.label13.Size = new System.Drawing.Size(175, 31);
             this.label13.TabIndex = 0;
             this.label13.Text = "Upright Row";
             // 
@@ -275,9 +298,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox6.Location = new System.Drawing.Point(-55, -34);
+            this.pictureBox6.Location = new System.Drawing.Point(-73, -42);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(532, 172);
+            this.pictureBox6.Size = new System.Drawing.Size(709, 212);
             this.pictureBox6.TabIndex = 13;
             this.pictureBox6.TabStop = false;
             // 
@@ -287,9 +311,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.label5.BackColor = System.Drawing.Color.Teal;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label5.Location = new System.Drawing.Point(6, 16);
+            this.label5.Location = new System.Drawing.Point(8, 20);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(202, 25);
+            this.label5.Size = new System.Drawing.Size(250, 31);
             this.label5.TabIndex = 0;
             this.label5.Text = "Triceps Kick-Back";
             // 
@@ -301,9 +326,11 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.pictureBox3);
             this.groupBox3.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox3.Location = new System.Drawing.Point(13, 380);
+            this.groupBox3.Location = new System.Drawing.Point(17, 468);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(413, 144);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Size = new System.Drawing.Size(551, 177);
             this.groupBox3.TabIndex = 38;
             this.groupBox3.TabStop = false;
             // 
@@ -311,9 +338,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox3.Location = new System.Drawing.Point(0, -31);
+            this.pictureBox3.Location = new System.Drawing.Point(0, -38);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(413, 319);
+            this.pictureBox3.Size = new System.Drawing.Size(551, 393);
             this.pictureBox3.TabIndex = 13;
             this.pictureBox3.TabStop = false;
             // 
@@ -321,25 +349,28 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.WindowText;
-            this.label2.Font = new System.Drawing.Font("Kudos Black SSi", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(58, 91);
+            this.label2.Location = new System.Drawing.Point(77, 112);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 34);
+            this.label2.Size = new System.Drawing.Size(125, 39);
             this.label2.TabIndex = 12;
             this.label2.Text = "5 Reps";
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Kudos Black SSi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(206, 89);
+            this.button2.Location = new System.Drawing.Point(275, 110);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 40);
+            this.button2.Size = new System.Drawing.Size(133, 49);
             this.button2.TabIndex = 11;
             this.button2.Text = "VIEW";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label3
             // 
@@ -347,9 +378,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.label3.BackColor = System.Drawing.Color.Teal;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label3.Location = new System.Drawing.Point(6, 16);
+            this.label3.Location = new System.Drawing.Point(8, 20);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(181, 25);
+            this.label3.Size = new System.Drawing.Size(224, 31);
             this.label3.TabIndex = 0;
             this.label3.Text = "Overhead Press";
             // 
@@ -357,9 +389,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox2.Location = new System.Drawing.Point(5, -40);
+            this.pictureBox2.Location = new System.Drawing.Point(7, -49);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(413, 259);
+            this.pictureBox2.Size = new System.Drawing.Size(551, 319);
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
             // 
@@ -371,9 +404,11 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.pictureBox2);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox2.Location = new System.Drawing.Point(13, 230);
+            this.groupBox2.Location = new System.Drawing.Point(17, 283);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(413, 144);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Size = new System.Drawing.Size(551, 177);
             this.groupBox2.TabIndex = 37;
             this.groupBox2.TabStop = false;
             // 
@@ -381,25 +416,28 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.SystemColors.WindowText;
-            this.label10.Font = new System.Drawing.Font("Kudos Black SSi", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(58, 91);
+            this.label10.Location = new System.Drawing.Point(77, 112);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(142, 34);
+            this.label10.Size = new System.Drawing.Size(144, 39);
             this.label10.TabIndex = 12;
             this.label10.Text = "10 Reps";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Kudos Black SSi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(206, 89);
+            this.button1.Location = new System.Drawing.Point(275, 110);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 40);
+            this.button1.Size = new System.Drawing.Size(133, 49);
             this.button1.TabIndex = 11;
             this.button1.Text = "VIEW";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -407,9 +445,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.label1.BackColor = System.Drawing.Color.Teal;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(6, 16);
+            this.label1.Location = new System.Drawing.Point(8, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 25);
+            this.label1.Size = new System.Drawing.Size(134, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Press Up";
             // 
@@ -417,9 +456,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Location = new System.Drawing.Point(1, -129);
+            this.pictureBox1.Location = new System.Drawing.Point(1, -159);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(413, 304);
+            this.pictureBox1.Size = new System.Drawing.Size(551, 374);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
@@ -427,9 +467,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.btnBack.BackColor = System.Drawing.Color.Silver;
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.Location = new System.Drawing.Point(13, 27);
+            this.btnBack.Location = new System.Drawing.Point(17, 33);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(75, 34);
+            this.btnBack.Size = new System.Drawing.Size(100, 42);
             this.btnBack.TabIndex = 35;
             this.btnBack.Text = "< BACK";
             this.btnBack.UseVisualStyleBackColor = false;
@@ -439,11 +480,12 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.label27.AutoSize = true;
             this.label27.BackColor = System.Drawing.Color.Black;
-            this.label27.Font = new System.Drawing.Font("Kudos Black SSi", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(213, 27);
+            this.label27.Location = new System.Drawing.Point(284, 33);
+            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(155, 34);
+            this.label27.Size = new System.Drawing.Size(192, 39);
             this.label27.TabIndex = 34;
             this.label27.Text = "EXERCISE";
             // 
@@ -451,11 +493,12 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Crimson;
-            this.label9.Font = new System.Drawing.Font("Kudos Black SSi", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(103, 27);
+            this.label9.Location = new System.Drawing.Point(137, 33);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(104, 34);
+            this.label9.Size = new System.Drawing.Size(116, 39);
             this.label9.TabIndex = 33;
             this.label9.Text = "ARMS";
             // 
@@ -467,18 +510,20 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox1.Location = new System.Drawing.Point(12, 80);
+            this.groupBox1.Location = new System.Drawing.Point(16, 98);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(413, 144);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(551, 177);
             this.groupBox1.TabIndex = 36;
             this.groupBox1.TabStop = false;
             // 
             // WArmsEx
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(445, 659);
+            this.ClientSize = new System.Drawing.Size(614, 811);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox6);
@@ -488,8 +533,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "WArmsEx";
             this.Text = "Arms Exercise";
+            this.Load += new System.EventHandler(this.WArmsEx_Load);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
