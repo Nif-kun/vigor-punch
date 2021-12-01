@@ -8,10 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp2.Exercises.Types.Male.Back;
-<<<<<<< HEAD
-=======
 
->>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
+
+
+
 namespace WindowsFormsApp2
 {
     public partial class frmManBackEX : Form
@@ -51,14 +51,14 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             frmLatPulldown LatPulldown = new frmLatPulldown();
             LatPulldown.Show();
 
-=======
+
             frmLatPulldown latPulldown = new frmLatPulldown();
             latPulldown.Show();
->>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -109,13 +109,13 @@ namespace WindowsFormsApp2
 
         private void button3_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             frmSeatedCable SeatedCable = new frmSeatedCable();
             SeatedCable.Show();
-=======
+
             frmSeatedCable seatedCable = new frmSeatedCable();
             seatedCable.Show();
->>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
+
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -140,13 +140,13 @@ namespace WindowsFormsApp2
 
         private void button4_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             frmBentOver BentOver = new frmBentOver();
             BentOver.Show();
-=======
+
             frmBentOver bentOver = new frmBentOver();
             bentOver.Show();
->>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
+
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -171,13 +171,13 @@ namespace WindowsFormsApp2
 
         private void button5_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             frmMachineRow MachineRow = new frmMachineRow();
             MachineRow.Show();
-=======
+
             frmMachineRow machineRow = new frmMachineRow();
             machineRow.Show();
->>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
+
         }
 
         private void label11_Click(object sender, EventArgs e)
@@ -207,13 +207,13 @@ namespace WindowsFormsApp2
 
         private void button6_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             frmSingleArmDumbell SingleArmDumbell = new frmSingleArmDumbell();
             SingleArmDumbell.Show();
-=======
+
             frmSingleArmDumbell singleArmDumbell = new frmSingleArmDumbell();
             singleArmDumbell.Show();
->>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
+
         }
 
         private void label13_Click(object sender, EventArgs e)

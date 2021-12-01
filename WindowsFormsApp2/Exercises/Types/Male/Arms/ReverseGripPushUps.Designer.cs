@@ -42,17 +42,17 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.pictureBox1.Location = new System.Drawing.Point(-51, 69);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-<<<<<<< HEAD
+
             this.pictureBox1.Size = new System.Drawing.Size(489, 218);
-=======
+
             this.pictureBox1.Size = new System.Drawing.Size(452, 218);
->>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
+
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // label1
-<<<<<<< HEAD
+
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cooper Black", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -77,7 +77,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(398, 518);
-=======
+
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cooper Black", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -103,16 +103,16 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(373, 456);
->>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
+
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-<<<<<<< HEAD
+
             this.Name = "ReverseGripPushUps";
-=======
+
             this.Name = "frmReverseGripPushUps";
->>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
+
             this.Text = "ReverseGripPushUps";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

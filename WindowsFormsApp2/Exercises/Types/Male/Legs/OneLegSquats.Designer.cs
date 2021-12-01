@@ -39,17 +39,17 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-<<<<<<< HEAD
+
             this.pictureBox1.Location = new System.Drawing.Point(3, -43);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(495, 473);
-=======
+
             this.pictureBox1.Location = new System.Drawing.Point(-6, -24);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(448, 473);
->>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
+
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -99,11 +99,11 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
+
             this.ClientSize = new System.Drawing.Size(498, 693);
-=======
+
             this.ClientSize = new System.Drawing.Size(436, 689);
->>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
+
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);

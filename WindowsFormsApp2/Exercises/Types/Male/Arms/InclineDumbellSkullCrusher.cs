@@ -16,5 +16,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
         {
             InitializeComponent();
         }
+
+        private void frmInclineDumbellSkullCrusher_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
