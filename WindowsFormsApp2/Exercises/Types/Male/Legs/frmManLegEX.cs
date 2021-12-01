@@ -37,8 +37,13 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
 
         private void button4_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             frmExplosiveSquat ExplosiveSquat = new frmExplosiveSquat();
             ExplosiveSquat.Show();
+=======
+            frmExplosiveSquat explosiveSquat = new frmExplosiveSquat();
+            explosiveSquat.Show();
+>>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -74,8 +79,13 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
 
         private void button3_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             frmBulgarianSplitsSquats BulgarianSplitSquats = new frmBulgarianSplitsSquats();
             BulgarianSplitSquats.Show();
+=======
+            frmBulgarianSplitsSquats bulgarianSplitsSquats = new frmBulgarianSplitsSquats();
+            bulgarianSplitsSquats.Show();
+>>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -100,8 +110,13 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
 
         private void button2_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             frmOneLegSquats OnelegSquats = new frmOneLegSquats();
             OnelegSquats.Show();
+=======
+            frmOneLegSquats oneLegSquats = new frmOneLegSquats();
+            oneLegSquats.Show();
+>>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -131,8 +146,13 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             frmSlowSquats SlowSquats = new frmSlowSquats();
             SlowSquats.Show();
+=======
+            frmSlowSquats slowSquats = new frmSlowSquats();
+            slowSquats.Show();
+>>>>>>> 8fc5d549398b9f81b3dfd707bad19c97092fde0d
         }
 
         private void label1_Click(object sender, EventArgs e)
