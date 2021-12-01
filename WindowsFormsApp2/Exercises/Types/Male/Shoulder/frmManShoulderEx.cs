@@ -31,8 +31,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Shoulder
             frmPikePushUps Pikepushup = new frmPikePushUps();
             Pikepushup.Show();
 
-            frmPikePushUps pikePushUps = new frmPikePushUps();
-            pikePushUps.Show();
+            
 
         }
 
@@ -42,9 +41,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Shoulder
             frmPseudoPushUps pseudoPushups = new frmPseudoPushUps();
             pseudoPushups.Show();
 
-            frmPseudoPushUps pseudoPushUps = new frmPseudoPushUps();
-            pseudoPushUps.Show();
-
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -53,8 +50,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Shoulder
             frmPlanchLean Planchlean = new frmPlanchLean();
             Planchlean.Show();
 
-            frmPlanchLean planchLean = new frmPlanchLean();
-            planchLean.Show();
+            
 
         }
 
@@ -64,8 +60,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Shoulder
             frmShoulderTouch Shouldertouch = new frmShoulderTouch();
             Shouldertouch.Show();
 
-            frmShoulderTouch shoulderTouch = new frmShoulderTouch();
-            shoulderTouch.Show();
+           
 
         }
     }

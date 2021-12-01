@@ -16,5 +16,10 @@ namespace WindowsFormsApp2.Exercises.Types.Female.Chest
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

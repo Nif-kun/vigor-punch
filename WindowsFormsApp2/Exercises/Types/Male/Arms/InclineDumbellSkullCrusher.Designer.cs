@@ -39,10 +39,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 37);
+            this.pictureBox1.Location = new System.Drawing.Point(0, -3);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(425, 250);
+            this.pictureBox1.Size = new System.Drawing.Size(408, 275);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -61,7 +61,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Cooper Black", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 358);
+            this.label2.Location = new System.Drawing.Point(13, 355);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(316, 128);
             this.label2.TabIndex = 3;
@@ -71,7 +71,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 524);
+            this.ClientSize = new System.Drawing.Size(364, 500);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);

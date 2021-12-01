@@ -42,7 +42,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             this.pictureBox2.Location = new System.Drawing.Point(0, -1);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(542, 334);
+            this.pictureBox2.Size = new System.Drawing.Size(492, 330);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -71,7 +71,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(496, 563);
+            this.ClientSize = new System.Drawing.Size(496, 513);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);

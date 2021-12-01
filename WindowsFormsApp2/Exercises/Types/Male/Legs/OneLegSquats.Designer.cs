@@ -39,41 +39,14 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-
-            this.pictureBox1.Location = new System.Drawing.Point(3, -43);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(495, 473);
-
             this.pictureBox1.Location = new System.Drawing.Point(-6, -24);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(448, 473);
-
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cooper Black", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 443);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Instruction:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Cooper Black", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(56, 474);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(379, 192);
-            this.label2.TabIndex = 3;
-            this.label2.Text = resources.GetString("label2.Text");
             // 
             // label1
             // 
@@ -89,7 +62,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Cooper Black", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(36, 486);
+            this.label2.Location = new System.Drawing.Point(13, 488);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(379, 192);
             this.label2.TabIndex = 2;
@@ -99,15 +72,11 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
-            this.ClientSize = new System.Drawing.Size(498, 693);
-
             this.ClientSize = new System.Drawing.Size(436, 689);
-
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmOneLegSquats";
             this.Text = "OneLegSquats";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

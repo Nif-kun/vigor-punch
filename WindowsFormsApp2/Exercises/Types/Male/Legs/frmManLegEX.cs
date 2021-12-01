@@ -41,8 +41,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             frmExplosiveSquat ExplosiveSquat = new frmExplosiveSquat();
             ExplosiveSquat.Show();
 
-            frmExplosiveSquat explosiveSquat = new frmExplosiveSquat();
-            explosiveSquat.Show();
+            
 
         }
 
@@ -83,8 +82,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             frmBulgarianSplitsSquats BulgarianSplitSquats = new frmBulgarianSplitsSquats();
             BulgarianSplitSquats.Show();
 
-            frmBulgarianSplitsSquats bulgarianSplitsSquats = new frmBulgarianSplitsSquats();
-            bulgarianSplitsSquats.Show();
+           
 
         }
 
@@ -114,8 +112,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             frmOneLegSquats OnelegSquats = new frmOneLegSquats();
             OnelegSquats.Show();
 
-            frmOneLegSquats oneLegSquats = new frmOneLegSquats();
-            oneLegSquats.Show();
+            
 
         }
 
@@ -150,8 +147,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Legs
             frmSlowSquats SlowSquats = new frmSlowSquats();
             SlowSquats.Show();
 
-            frmSlowSquats slowSquats = new frmSlowSquats();
-            slowSquats.Show();
+            
 
         }
 

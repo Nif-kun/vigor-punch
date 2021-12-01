@@ -42,25 +42,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             hangingknee.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            frmPushuptojacKnife jackknife = new frmPushuptojacKnife();
-            jackknife.Show();
-        }
-
-        
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            frmAbrollout abrollout = new frmAbrollout();
-            abrollout.Show();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            frmObliqueCrunch obliquecrunch = new frmObliqueCrunch();
-            obliquecrunch.Show();
-        }
+       
 
         private void button3_Click_1(object sender, EventArgs e)
         {
@@ -68,17 +50,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             keeponplanking.Show();
         }
 
-       
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-           // frmKeepOnPlanking keepOnPlanking = new frmKeepOnPlanking();
-           // keepOnPlanking.Show();
-        }
-
-       
-
-        
         private void button2_Click_1(object sender, EventArgs e)
         {
             frmPushuptojacKnife PJKnife = new frmPushuptojacKnife();
@@ -93,18 +65,9 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
 
         private void button5_Click_1(object sender, EventArgs e)
         {
-            frmObliqueCrunch ObliqueCrunch = new frmObliqueCrunch();
+           frmObliqueCrunch ObliqueCrunch = new frmObliqueCrunch();
             ObliqueCrunch.Show();
         }
-
-      
-
-        private void button4_Click_(object sender, EventArgs e)
-        {
-            frmAbrollout aBRollOut = new frmAbrollout();
-            aBRollOut.Show();
-        }
-
         
     }
 }

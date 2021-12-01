@@ -43,8 +43,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             ReverseGripPushup.Show();
 
 
-            frmReverseGripPushUps reverseGripPushUps = new frmReverseGripPushUps();
-            reverseGripPushUps.Show();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -52,9 +51,8 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             frmCableTricepPushDown CableTricepPushdown = new frmCableTricepPushDown();
             CableTricepPushdown.Show();
 
-            frmCableTricepPushDown cableTricepPushDown = new frmCableTricepPushDown();
-            cableTricepPushDown.Show();
-
+            
+                
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -63,8 +61,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             frmPreacherCurls PreacherCurls = new frmPreacherCurls();
             PreacherCurls.Show();
 
-            frmPreacherCurls preacherCurls = new frmPreacherCurls();
-            preacherCurls.Show();
+           
 
         }
 
@@ -74,9 +71,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             frmBarbellCurls BarbellCurls = new frmBarbellCurls();
             BarbellCurls.Show();
 
-            frmBarbellCurls barbellCurls = new frmBarbellCurls();
-            barbellCurls.Show();
-
+            
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -85,8 +80,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Arms
             frmZottmanCurls ZottmanCurls = new frmZottmanCurls();
             ZottmanCurls.Show();
 
-            frmZottmanCurls zottmanCurls = new frmZottmanCurls();
-            zottmanCurls.Show();
+            
 
         }
     }

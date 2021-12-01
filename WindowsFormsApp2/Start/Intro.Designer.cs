@@ -83,7 +83,8 @@ namespace WindowsFormsApp2.Start
             this.loginBtn.AutoSize = true;
             this.loginBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.loginBtn.Font = new System.Drawing.Font("Bahnschrift SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginBtn.Location = new System.Drawing.Point(92, 551);
+            this.loginBtn.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.loginBtn.Location = new System.Drawing.Point(108, 551);
             this.loginBtn.Name = "loginBtn";
             this.loginBtn.Size = new System.Drawing.Size(176, 18);
             this.loginBtn.TabIndex = 6;

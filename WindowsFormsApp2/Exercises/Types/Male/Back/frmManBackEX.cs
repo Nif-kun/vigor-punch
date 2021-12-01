@@ -56,8 +56,7 @@ namespace WindowsFormsApp2
             LatPulldown.Show();
 
 
-            frmLatPulldown latPulldown = new frmLatPulldown();
-            latPulldown.Show();
+            
 
         }
 
@@ -113,8 +112,7 @@ namespace WindowsFormsApp2
             frmSeatedCable SeatedCable = new frmSeatedCable();
             SeatedCable.Show();
 
-            frmSeatedCable seatedCable = new frmSeatedCable();
-            seatedCable.Show();
+            
 
         }
 
@@ -144,8 +142,7 @@ namespace WindowsFormsApp2
             frmBentOver BentOver = new frmBentOver();
             BentOver.Show();
 
-            frmBentOver bentOver = new frmBentOver();
-            bentOver.Show();
+            
 
         }
 
@@ -175,8 +172,7 @@ namespace WindowsFormsApp2
             frmMachineRow MachineRow = new frmMachineRow();
             MachineRow.Show();
 
-            frmMachineRow machineRow = new frmMachineRow();
-            machineRow.Show();
+            
 
         }
 
@@ -211,8 +207,7 @@ namespace WindowsFormsApp2
             frmSingleArmDumbell SingleArmDumbell = new frmSingleArmDumbell();
             SingleArmDumbell.Show();
 
-            frmSingleArmDumbell singleArmDumbell = new frmSingleArmDumbell();
-            singleArmDumbell.Show();
+          
 
         }
 

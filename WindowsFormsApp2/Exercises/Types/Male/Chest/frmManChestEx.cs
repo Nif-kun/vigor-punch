@@ -48,8 +48,7 @@ namespace WindowsFormsApp2
             frmPushUps Pushup = new frmPushUps();
             Pushup.Show();
 
-            frmPushUps pushUps = new frmPushUps();
-            pushUps.Show();
+            
 
         }
 
@@ -59,9 +58,7 @@ namespace WindowsFormsApp2
             frmSuspendedPushUps SuspendedPushup = new frmSuspendedPushUps();
             SuspendedPushup.Show();
 
-            frmSuspendedPushUps suspendedPushUps = new frmSuspendedPushUps();
-            suspendedPushUps.Show();
-
+            
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -70,8 +67,7 @@ namespace WindowsFormsApp2
             frmInclineDumbell InclineDumbell = new frmInclineDumbell();
             InclineDumbell.Show();
 
-            frmInclineDumbell inclineDumbell = new frmInclineDumbell();
-            inclineDumbell.Show();
+            
 
         }
 
@@ -81,16 +77,14 @@ namespace WindowsFormsApp2
             frmBarbellBench BarbellBench = new frmBarbellBench();
             BarbellBench.Show();
 
-            frmBarbellBench barbellBench = new frmBarbellBench();
-            barbellBench.Show();
+           
 
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
 
-            frmCloseGrip closegrip = new frmCloseGrip();
-            closegrip.Show();
+           
 
             frmCloseGrip closeGrip = new frmCloseGrip();
             closeGrip.Show();
@@ -103,9 +97,7 @@ namespace WindowsFormsApp2
             frmDips Dips = new frmDips();
             Dips.Show();
 
-            frmDips dips = new frmDips();
-            dips.Show();
-
+           
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -114,8 +106,7 @@ namespace WindowsFormsApp2
             frmSeatedPec SeatedPec = new frmSeatedPec();
             SeatedPec.Show();
 
-            frmSeatedPec seatedPec = new frmSeatedPec();
-            seatedPec.Show();
+           
 
         }
 
@@ -125,8 +116,7 @@ namespace WindowsFormsApp2
             frmPlatePressOut PlatePressout = new frmPlatePressOut();
             PlatePressout.Show();
 
-            frmPlatePressOut platePressOut = new frmPlatePressOut();
-            platePressOut.Show();
+           
 
         }
 

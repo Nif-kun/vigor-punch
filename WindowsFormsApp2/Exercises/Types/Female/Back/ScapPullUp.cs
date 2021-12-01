@@ -21,5 +21,10 @@ namespace WindowsFormsApp2.Exercises.Types.Female.Back
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -33,41 +33,26 @@ namespace WindowsFormsApp2.Exercises.Types.Female.Chest
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-
-            this.pictureBox1.Location = new System.Drawing.Point(0, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(430, 355);
-
             this.pictureBox1.Location = new System.Drawing.Point(-32, -4);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(566, 306);
-
+            this.pictureBox1.Size = new System.Drawing.Size(575, 251);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-
-            // frmMedicineBall
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 624);
-            this.Controls.Add(this.pictureBox1);
-            this.Name = "frmMedicineBall";
-            this.Text = "Form4";
-
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cooper Black", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(4, 310);
+            this.label1.Location = new System.Drawing.Point(12, 278);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 20);
             this.label1.TabIndex = 1;
@@ -79,22 +64,32 @@ namespace WindowsFormsApp2.Exercises.Types.Female.Chest
             this.label2.Font = new System.Drawing.Font("Cooper Black", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(31, 334);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(463, 176);
+            this.label2.Size = new System.Drawing.Size(0, 16);
             this.label2.TabIndex = 2;
-            this.label2.Text = resources.GetString("label2.Text");
             // 
-            // frmPikePushUps
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(1, 333);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(531, 85);
+            this.label3.TabIndex = 3;
+            this.label3.Text = resources.GetString("label3.Text");
+            // 
+            // frmMedicineBall
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 537);
+            this.ClientSize = new System.Drawing.Size(520, 426);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "frmPikePushUps";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "frmMedicineBall";
             this.Text = "PikePushUps";
-
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,5 +100,6 @@ namespace WindowsFormsApp2.Exercises.Types.Female.Chest
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }

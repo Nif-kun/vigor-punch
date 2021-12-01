@@ -49,6 +49,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercises\Types\Female\Abdominal\frmSidePlank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Abdominal\frmSidePlank.Designer.cs">
+      <DependentUpon>frmSidePlank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Abdominal\frmReverseCrunch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Abdominal\frmReverseCrunch.Designer.cs">
+      <DependentUpon>frmReverseCrunch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Abdominal\frmBoatPose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Abdominal\frmBoatPose.Designer.cs">
+      <DependentUpon>frmBoatPose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Abdominal\frmBicycleCrunches.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Abdominal\frmBicycleCrunches.Designer.cs">
+      <DependentUpon>frmBicycleCrunches.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercises\Types\Female\Abdominal\PlankCrawlout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -616,6 +640,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Exercises\Types\Female\Abdominal\frmSidePlank.resx">
+      <DependentUpon>frmSidePlank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Abdominal\frmReverseCrunch.resx">
+      <DependentUpon>frmReverseCrunch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Abdominal\frmBoatPose.resx">
+      <DependentUpon>frmBoatPose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Abdominal\frmBicycleCrunches.resx">
+      <DependentUpon>frmBicycleCrunches.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Abdominal\PlankCrawlOut.resx">
+      <DependentUpon>PlankCrawlout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Female\Abdominal\WAbdominalEx.resx">
       <DependentUpon>WAbdominalEx.cs</DependentUpon>
     </EmbeddedResource>

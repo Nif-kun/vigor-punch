@@ -42,7 +42,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             this.pictureBox2.Location = new System.Drawing.Point(-33, 3);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(618, 289);
+            this.pictureBox2.Size = new System.Drawing.Size(534, 263);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -51,7 +51,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cooper Black", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(23, 315);
+            this.label1.Location = new System.Drawing.Point(23, 291);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 20);
             this.label1.TabIndex = 3;
@@ -61,7 +61,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Cooper Black", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(80, 357);
+            this.label2.Location = new System.Drawing.Point(24, 330);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(347, 144);
             this.label2.TabIndex = 4;
@@ -71,7 +71,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 541);
+            this.ClientSize = new System.Drawing.Size(422, 492);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);

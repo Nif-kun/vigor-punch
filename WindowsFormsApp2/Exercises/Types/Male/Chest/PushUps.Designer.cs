@@ -40,7 +40,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Chest
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(-17, 50);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(411, 242);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -51,45 +51,31 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Chest
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cooper Black", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-
-            this.label1.Location = new System.Drawing.Point(22, 309);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 20);
-            this.label1.TabIndex = 2;
-
             this.label1.Location = new System.Drawing.Point(3, 296);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 20);
             this.label1.TabIndex = 1;
-
             this.label1.Text = "Instruction:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Cooper Black", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-
-            this.label2.Location = new System.Drawing.Point(12, 347);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(347, 80);
-            this.label2.TabIndex = 3;
-
             this.label2.Location = new System.Drawing.Point(14, 333);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(347, 80);
             this.label2.TabIndex = 2;
-
             this.label2.Text = resources.GetString("label2.Text");
             // 
             // frmPushUps
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(373, 478);
+            this.ClientSize = new System.Drawing.Size(373, 435);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmPushUps";
             this.Text = "PushUps";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

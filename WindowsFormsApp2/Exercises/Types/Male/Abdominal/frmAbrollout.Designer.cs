@@ -81,7 +81,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(543, 563);
+            this.ClientSize = new System.Drawing.Size(532, 543);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);

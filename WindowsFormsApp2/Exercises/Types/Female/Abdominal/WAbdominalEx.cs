@@ -40,7 +40,31 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
         {
             PlankCrawlout PlankCrawlout = new PlankCrawlout();
             PlankCrawlout.Show();
-  
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmSidePlank SPlank = new frmSidePlank();
+                SPlank.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmReverseCrunch RCrunch = new frmReverseCrunch();
+            RCrunch.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmBoatPose BPose = new frmBoatPose();
+                BPose.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            frmBicycleCrunches BCrunches = new frmBicycleCrunches();
+            BCrunches.Show();
         }
     }
 }

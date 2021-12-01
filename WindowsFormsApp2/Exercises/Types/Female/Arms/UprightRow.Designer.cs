@@ -70,7 +70,7 @@ namespace WindowsFormsApp2.Exercises.Types.Female.Arms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(488, 661);
+            this.ClientSize = new System.Drawing.Size(488, 604);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
