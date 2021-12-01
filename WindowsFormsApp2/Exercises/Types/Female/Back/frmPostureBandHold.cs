@@ -16,5 +16,10 @@ namespace WindowsFormsApp2.Exercises.Types.Female.Back
         {
             InitializeComponent();
         }
+
+        private void frmPostureBandHold_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
