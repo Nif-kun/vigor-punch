@@ -77,6 +77,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             this.Controls.Add(this.pictureBox2);
             this.Name = "frmPushuptojacKnife";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.frmPushuptojacKnife_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

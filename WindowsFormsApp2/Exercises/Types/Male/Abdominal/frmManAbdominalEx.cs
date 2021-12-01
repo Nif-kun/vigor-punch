@@ -97,28 +97,14 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             ObliqueCrunch.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            frmPushUpsToJackKnife pushUpsToJackKnife = new frmPushUpsToJackKnife();
-            pushUpsToJackKnife.Show();
-        }
+      
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button4_Click_(object sender, EventArgs e)
         {
-            frmKeepOnPlanking keepOnPlanking = new frmKeepOnPlanking();
-            keepOnPlanking.Show();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            frmABRollOut aBRollOut = new frmABRollOut();
+            frmAbrollout aBRollOut = new frmAbrollout();
             aBRollOut.Show();
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            frmObliqueCrunch obliqueCrunch = new frmObliqueCrunch();
-            obliqueCrunch.Show();
-        }
+        
     }
 }

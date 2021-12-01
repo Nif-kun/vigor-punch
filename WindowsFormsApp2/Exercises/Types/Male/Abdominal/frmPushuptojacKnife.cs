@@ -16,5 +16,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
         {
             InitializeComponent();
         }
+
+        private void frmPushuptojacKnife_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
