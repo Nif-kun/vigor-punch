@@ -27,8 +27,8 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Shoulder
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmManShoulderEx manShoulderEx = new frmManShoulderEx();
-            manShoulderEx.Show();
+            frmPikePushUps Pikepushup = new frmPikePushUps();
+            Pikepushup.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

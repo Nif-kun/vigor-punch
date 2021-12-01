@@ -38,7 +38,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PlankCrawlOut PlankCrawlout = new PlankCrawlOut();
+            PlankCrawlout PlankCrawlout = new PlankCrawlout();
             PlankCrawlout.Show();
   
         }

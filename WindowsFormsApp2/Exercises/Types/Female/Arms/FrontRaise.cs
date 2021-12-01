@@ -16,5 +16,10 @@ namespace WindowsFormsApp2.Exercises.Types.Female.Arms
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

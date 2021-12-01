@@ -38,38 +38,34 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmHangingKnee hangingKnee = new frmHangingKnee();
-            hangingKnee.Show();
+            frmHangingKnee hangingknee = new frmHangingKnee();
+            hangingknee.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            frmPushUpsToJackKnife PushuptoJackKnife = new frmPushUpsToJackKnife();
-                PushuptoJackKnife.Show();
+            frmPushuptojacKnife jackknife = new frmPushuptojacKnife();
+            jackknife.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            frmKeepOnPlanking KeepOnPlanking = new frmKeepOnPlanking();
-            KeepOnPlanking.Show();
-        }
+        
 
         private void button4_Click(object sender, EventArgs e)
         {
-            frmABRollOut AbRollout = new frmABRollOut();
-            AbRollout.Show();
+            frmAbrollout abrollout = new frmAbrollout();
+            abrollout.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            frmObliqueCrunch obliqueCrunch = new frmObliqueCrunch();
-            obliqueCrunch.Show();
+            frmObliqueCrunch obliquecrunch = new frmObliqueCrunch();
+            obliquecrunch.Show();
         }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            frmKeepOnPlanking KeeponPlanking = new frmKeepOnPlanking();
-            KeeponPlanking.Show();
+            frmKeeponplanking keeponplanking = new frmKeeponplanking();
+            keeponplanking.Show();
         }
     }
 }

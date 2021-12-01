@@ -70,7 +70,7 @@ namespace WindowsFormsApp2
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmManAbdominalEx abdEx = new frmManAbdominalEx();
+            WAbdominalEx abdEx = new WAbdominalEx();
             abdEx.Closed += (s, args) => this.Close();
             abdEx.Show();
         }
