@@ -41,5 +41,29 @@ namespace WindowsFormsApp2
             frmBandFacePull BandFacePull = new frmBandFacePull();
             BandFacePull.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmSuspensionRow suspensionrow = new frmSuspensionRow();
+            suspensionrow.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmSeatedCableRow SeatedCable = new frmSeatedCableRow();
+            SeatedCable.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            frmPostureBandHold PostureBandHold = new frmPostureBandHold();
+            PostureBandHold.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            frmSingleArmDumbbelRow singlearmdumbbelrow = new frmSingleArmDumbbelRow();
+            singlearmdumbbelrow.Show();
+        }
     }
 }

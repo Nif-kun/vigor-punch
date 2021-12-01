@@ -16,5 +16,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Back
         {
             InitializeComponent();
         }
+
+        private void frmBentOver_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

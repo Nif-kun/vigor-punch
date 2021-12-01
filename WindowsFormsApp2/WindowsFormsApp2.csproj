@@ -110,6 +110,30 @@
     <Compile Include="Exercises\Types\Female\Back\BandFacePull.Designer.cs">
       <DependentUpon>BandFacePull.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercises\Types\Female\Back\SeatedCableRow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Back\SeatedCableRow.Designer.cs">
+      <DependentUpon>SeatedCableRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Back\frmPostureBandHold.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Back\frmPostureBandHold.Designer.cs">
+      <DependentUpon>frmPostureBandHold.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Back\frmSuspensionRow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Back\frmSuspensionRow.Designer.cs">
+      <DependentUpon>frmSuspensionRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Back\frmSingleArmDumbbelRow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Back\frmSingleArmDumbbelRow.Designer.cs">
+      <DependentUpon>frmSingleArmDumbbelRow.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercises\Types\Female\Back\ScapPullUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +145,66 @@
     </Compile>
     <Compile Include="Exercises\Types\Female\Back\frmFemaleBackEx.Designer.cs">
       <DependentUpon>frmFemaleBackEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmDumbbellChestPress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmDumbbellChestPress.Designer.cs">
+      <DependentUpon>frmDumbbellChestPress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmCableObliqueTwist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmCableObliqueTwist.Designer.cs">
+      <DependentUpon>frmCableObliqueTwist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmPushUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmPushUp.Designer.cs">
+      <DependentUpon>frmPushUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmStabilityBall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmStabilityBall.Designer.cs">
+      <DependentUpon>frmStabilityBall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmMedicineBall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmMedicineBall.Designer.cs">
+      <DependentUpon>frmMedicineBall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmDumbbelPullOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmDumbbelPullOver.Designer.cs">
+      <DependentUpon>frmDumbbelPullOver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmCableCrossover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmCableCrossover.Designer.cs">
+      <DependentUpon>frmCableCrossover.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmButterflyMachine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmButterflyMachine.Designer.cs">
+      <DependentUpon>frmButterflyMachine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmInclineDumbbelChestPress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmInclineDumbbelChestPress.Designer.cs">
+      <DependentUpon>frmInclineDumbbelChestPress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmBarbellbenchPress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Chest\frmBarbellbenchPress.Designer.cs">
+      <DependentUpon>frmBarbellbenchPress.cs</DependentUpon>
     </Compile>
     <Compile Include="Exercises\Types\Female\Chest\frmFemaleChestEx.cs">
       <SubType>Form</SubType>
@@ -134,11 +218,65 @@
     <Compile Include="Exercises\Types\Female\FemaleWorkouts.Designer.cs">
       <DependentUpon>FemaleWorkouts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercises\Types\Female\Legs\frmSidetoSideStep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Legs\frmSidetoSideStep.Designer.cs">
+      <DependentUpon>frmSidetoSideStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Legs\frmSumoSquats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Legs\frmSumoSquats.Designer.cs">
+      <DependentUpon>frmSumoSquats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Legs\frmGluteBridge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Legs\frmGluteBridge.Designer.cs">
+      <DependentUpon>frmGluteBridge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Legs\frmHighKnees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Legs\frmHighKnees.Designer.cs">
+      <DependentUpon>frmHighKnees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Legs\frmLunges.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Legs\frmLunges.Designer.cs">
+      <DependentUpon>frmLunges.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercises\Types\Female\Legs\WLegEX.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Exercises\Types\Female\Legs\WLegEX.Designer.cs">
       <DependentUpon>WLegEX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Shoulders\frmElbowSide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Shoulders\frmElbowSide.Designer.cs">
+      <DependentUpon>frmElbowSide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Shoulders\frmShoulderRotation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Shoulders\frmShoulderRotation.Designer.cs">
+      <DependentUpon>frmShoulderRotation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Shoulders\frmBackSqueeze.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Shoulders\frmBackSqueeze.Designer.cs">
+      <DependentUpon>frmBackSqueeze.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Shoulders\frmArmsRaise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercises\Types\Female\Shoulders\frmArmsRaise.Designer.cs">
+      <DependentUpon>frmArmsRaise.cs</DependentUpon>
     </Compile>
     <Compile Include="Exercises\Types\Female\Shoulders\WShoulderEx.cs">
       <SubType>Form</SubType>
@@ -508,20 +646,89 @@
     <EmbeddedResource Include="Exercises\Types\Female\Back\BandFacePull.resx">
       <DependentUpon>BandFacePull.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Back\frmPostureBandHold.resx">
+      <DependentUpon>frmPostureBandHold.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Back\frmSingleArmDumbbelRow.resx">
+      <DependentUpon>frmSingleArmDumbbelRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Back\frmSuspensionRow.resx">
+      <DependentUpon>frmSuspensionRow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Female\Back\ScapPullUp.resx">
       <DependentUpon>ScapPullUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Female\Back\frmFemaleBackEx.resx">
       <DependentUpon>frmFemaleBackEx.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Back\SeatedCableRow.resx">
+      <DependentUpon>SeatedCableRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Chest\frmBarbellbenchPress.resx">
+      <DependentUpon>frmBarbellbenchPress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Chest\frmButterflyMachine.resx">
+      <DependentUpon>frmButterflyMachine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Chest\frmCableCrossover.resx">
+      <DependentUpon>frmCableCrossover.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Chest\frmCableObliqueTwist.resx">
+      <DependentUpon>frmCableObliqueTwist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Chest\frmDumbbellChestPress.resx">
+      <DependentUpon>frmDumbbellChestPress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Chest\frmDumbbelPullOver.resx">
+      <DependentUpon>frmDumbbelPullOver.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Female\Chest\frmFemaleChestEx.resx">
       <DependentUpon>frmFemaleChestEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Chest\frmInclineDumbbelChestPress.resx">
+      <DependentUpon>frmInclineDumbbelChestPress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Chest\frmMedicineBall.resx">
+      <DependentUpon>frmMedicineBall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Chest\frmPushUp.resx">
+      <DependentUpon>frmPushUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Chest\frmStabilityBall.resx">
+      <DependentUpon>frmStabilityBall.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Female\FemaleWorkouts.resx">
       <DependentUpon>FemaleWorkouts.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Legs\frmGluteBridge.resx">
+      <DependentUpon>frmGluteBridge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Legs\frmHighKnees.resx">
+      <DependentUpon>frmHighKnees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Legs\frmLunges.resx">
+      <DependentUpon>frmLunges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Legs\frmSidetoSideStep.resx">
+      <DependentUpon>frmSidetoSideStep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Legs\frmSumoSquats.resx">
+      <DependentUpon>frmSumoSquats.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Female\Legs\WLegEX.resx">
       <DependentUpon>WLegEX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Shoulders\frmElbowSide.resx">
+      <DependentUpon>frmElbowSide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Shoulders\frmShoulderRotation.resx">
+      <DependentUpon>frmShoulderRotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Shoulders\frmBackSqueeze.resx">
+      <DependentUpon>frmBackSqueeze.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercises\Types\Female\Shoulders\frmArmsRaise.resx">
+      <DependentUpon>frmArmsRaise.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercises\Types\Female\Shoulders\WShoulderEx.resx">
       <DependentUpon>WShoulderEx.cs</DependentUpon>

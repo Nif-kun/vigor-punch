@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using WindowsFormsApp2.Exercises.Types.Female.Shoulders;
 namespace WindowsFormsApp2.Exercises.Types.Male.Shoulder
 {
     public partial class WShoulderEx : Form
@@ -23,6 +23,30 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Shoulder
             FemaleWorkout manWorkout = new FemaleWorkout();
             manWorkout.Closed += (s, args) => this.Close();
             manWorkout.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmElbowSide ElbowSide = new frmElbowSide();
+            ElbowSide.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmShoulderRotation ShoulderRotation = new frmShoulderRotation();
+            ShoulderRotation.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmBackSqueeze backSqueeze = new frmBackSqueeze();
+            backSqueeze.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmArmsRaise ArmsRaise = new frmArmsRaise();
+                ArmsRaise.Show();
         }
     }
 }

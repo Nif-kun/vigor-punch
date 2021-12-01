@@ -16,5 +16,10 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Back
         {
             InitializeComponent();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
