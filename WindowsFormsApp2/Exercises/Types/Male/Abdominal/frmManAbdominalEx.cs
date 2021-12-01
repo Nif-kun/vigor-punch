@@ -67,5 +67,34 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             frmKeeponplanking keeponplanking = new frmKeeponplanking();
             keeponplanking.Show();
         }
+
+       
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+           // frmKeepOnPlanking keepOnPlanking = new frmKeepOnPlanking();
+           // keepOnPlanking.Show();
+        }
+
+       
+
+        
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            frmPushuptojacKnife PJKnife = new frmPushuptojacKnife();
+            PJKnife.Show();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            frmAbrollout Abrollout = new frmAbrollout();
+            Abrollout.Show();
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            frmObliqueCrunch ObliqueCrunch = new frmObliqueCrunch();
+            ObliqueCrunch.Show();
+        }
     }
 }

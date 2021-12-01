@@ -163,7 +163,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             this.button4.TabIndex = 11;
             this.button4.Text = "VIEW";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // label7
             // 
@@ -214,7 +214,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             this.button2.TabIndex = 11;
             this.button2.Text = "VIEW";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // label3
             // 
@@ -420,7 +420,7 @@ namespace WindowsFormsApp2.Exercises.Types.Male.Abdominal
             this.button5.TabIndex = 11;
             this.button5.Text = "VIEW";
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
             // label11
             // 
